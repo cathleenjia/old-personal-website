@@ -6,97 +6,129 @@
 
     <meta charset="UTF-8">
 
-    <title>Design - Cathleen Jia</title>
+    <title>Cathleen Jia</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navStyle.css">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Karla:400,700,400i|Abril+Fatface' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
 
   </head>
 
-  <body class = " gray-background">
+  <body>
 
     <div class="navigation fixed-nav-bar">
       <div class="nav-container">
         <div class="brand">
-          <a class = "abrilFatface" href="index.html">CATHLEEN JIA</a>
+          <a class = "roboto_mono" href="index.html">CATHLEEN JIA</a>
         </div>
         <nav>
           <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
           <ul class="nav-list">
             <li>
-              <a class = "karla visited" href="projects.html">DESIGN</a>
+              <a class = "roboto_mono" href="portfolio.html" id="portfolio_div">DESIGN</a>
             </li>
+            <!-- <li>
+              <a class = "roboto_mono" href="photo.html">PHOTO</a>
+            </li> -->
             <li>
-              <a class = "karla" href="photo.html">PHOTO</a>
-            </li>
-            <li>
-              <a class = "karla" href="about.html">ABOUT</a>
+              <a class = "roboto_mono" href="about.html">ABOUT</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
 
-    <!-- <div class = "grid-about">
-      <div class = "grid-about-item grid-portfolio-item">
-        <div class = "grid-portfolio">
-          <div class = "grid-portfolio-hover">
-            <img src = "images/projects/commotion.jpg" class="grid-portfolio-sq1">
+    <div class="content">
+
+      <div id="portfolio" style="margin-top: -5%;">
+        <div class="rainbow_line"></div>
+        <div class="portfolio_text_block">
+          <div class="header">
+            Portfolio
+          </div>
+          <div class="subheader_block">
+            <div class="subheader">
+              Some pieces I've worked on. Feel free to peruse and learn about my process.
+            </div>
           </div>
         </div>
-        <div class = "grid-portfolio">
-          <div class = "grid-portfolio-hover">
-            <img src = "images/projects/knightlight.jpg" class="grid-portfolio-sq2">
+
+        <div class="grid overview_grid">
+          <div class="grid-sizer"></div>
+
+          <div class="grid_item">
+            <div class = "grid_hover">
+              <a href = "big_c.html">
+                <div class = "img_caption img_caption">
+                HALFY HOUR
+                <br>(Mobile UI/UX Design)
+                </div>
+              </a>
+            </div>
+            <p class = "mobile-cap">B I G&nbsp;&nbsp;&nbsp;C</p>
+            <img src = "img/halfy_hour_mobile.png" alt = "Halfy Hour Mobile Image" class = "grid-img">
+          </div>
+          
+          <div class="grid_item">
+            <div class = "grid_hover">
+              <a href = "tahoe.html">
+                <div class = "img_caption img_caption">
+                HALFY HOUR
+                <br> (Web UI/UX Design)
+                </div>
+              </a>
+            </div>
+            <p class = "mobile-cap">T A H O E</p>
+            <img src = "img/halfy_hour_web.png" alt = "Halfy Hour Web Image" class = "grid-img">
+          </div>
+
+          <div class="grid_item">
+            <div class = "grid_hover">
+              <a href = "big_c.html">
+                <div class = "img_caption img_caption">
+                GOVERNOR
+                <br>(Web UI/UX Design)
+                </div>
+              </a>
+            </div>
+            <p class = "mobile-cap">B I G&nbsp;&nbsp;&nbsp;C</p>
+            <img src = "img/governor.png" alt = "Halfy Hour Mobile Image" class = "grid-img">
+          </div>
+
+          <div class="grid_item">
+            <div class = "grid_hover">
+              <a href = "big_c.html">
+                <div class = "img_caption img_caption">
+                KNIGHTLIGHT
+                <br>(Ideation + UI/UX Design)
+                </div>
+              </a>
+            </div>
+            <p class = "mobile-cap">B I G&nbsp;&nbsp;&nbsp;C</p>
+            <img src = "img/knightlight.png" alt = "Halfy Hour Mobile Image" class = "grid-img">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="rainbow_line"></div>
+      <div class="footer">
+        <div class="footer_block">
+          <div class="footer_header">
+            CATHLEEN JIA
           </div>
         </div>
-        <div class = "grid-portfolio">
-          <div class = "grid-portfolio-hover">
-            <img src = "images/projects/catGirl.jpg" class="grid-portfolio-sq1">
-          </div>
-        </div>
-      </div>
-    </div>
- -->
-
- <div class="grid overview-grid">
-      <div class="grid-sizer"></div>
-      
-      <div class="grid-portfolio-sq1">
-        <div class = "grid-hover">
-          <!-- <a href = "big_c.html"> -->
-            <div class = "img-caption img-caption-portfolio">C O M M O T I O N</div>
+        <div class="footer_block">
+          <a class="footer_links">
+            CONTACT
+          </a>
+          <a class="footer_links" href="about.html">
+            ABOUT
           </a>
         </div>
-        <p class = "mobile-cap">C O M M O T I O N</p>
-        <img src = "images/projects/commotion.jpg" alt = "bid-c-img" class = "grid-img">
       </div>
 
-      <div class="grid-portfolio-sq2">
-        <div class = "grid-hover">
-          <!-- <a href = "big_c.html"> -->
-            <div class = "img-caption img-caption-portfolio">K N I G H T L I G H T</div>
-          </a>
-        </div>
-        <p class = "mobile-cap">K N I G H T L I G H T</p>
-        <img src = "images/projects/knightlight.jpg" alt = "bid-c-img" class = "grid-img">
-      </div>
 
-      <div class="grid-portfolio-sq1-last">
-        <div class = "grid-hover">
-          <!-- <a href = "big_c.html"> -->
-            <div class = "img-caption img-caption-portfolio">D O O D L E S</div>
-          </a>
-        </div>
-        <p class = "mobile-cap">D O O D L E S</p>
-        <img src = "images/projects/catGirl.jpg" alt = "bid-c-img" class = "grid-img">
-      </div>
-</div>
-
-<div class = "footer-spacer"></div>
-
-    <div class = "footer">&#60;/&#62; with &hearts; by Cathleen Jia</div>
 
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
