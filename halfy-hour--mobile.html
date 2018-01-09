@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html >
+
+  <head>
+
+    <title>Cathleen Jia - Halfy Hour</title>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Source+Serif+Pro:400,700" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Mono:400,500" rel="stylesheet"> -->
+
+  </head>
+  <body>
+
+    <div id="slide-index--container">
+      <ul>
+        <li><a class="slide-index--min" href="#"><span onclick="closeNav()">Minimize &lt;</span></a></li>
+      </ul>
+
+      <ul>
+        <li class="slide-index--item"><a href="halfy-hour--mobile.html">Halfy Hour Mobile</a></li>
+        <li class="slide-index--item"><a href="halfy-hour--web.html">Halfy Hour Web</a></li>
+        <li class="slide-index--item"><a href="governor.html">Governor</a></li>
+        <li class="slide-index--item"><a href="knight-light.html">Knight Light</a></li>
+        <li class="slide-index--item"><a href="citris.html">CITRIS Foundry</a></li>
+      </ul>
+    </div>
+
+
+    <div id="main">
+
+
+      <ul id="DOC-index--container">
+
+        <a href="index.html"><h1>Cathleen Jia
+        </h1></a>
+
+        <a href="#"><span onclick="openNav()"><h2>View All &gt;
+        </h2></span></a>
+
+        <h3>Index</h3>
+
+        <li><div class="DOC-index--item" id="#section1">Introduction
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section2">Mission
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section3">Team + Objective
+        </div></li>
+
+        <li><div class="DOC-index--item" id="#section4">Research
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section5">Inital Sketches
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section6">Final Solution
+        </div></li>
+
+        <li><div class="DOC-index--item" id="#section7">Demo
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section8">Style Guide
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section9">Next Steps
+        </div></li>
+
+        <li><div class="DOC-index--item" id="#section10">Reflection
+        </div></li>
+
+        <li> <div class="DOC-index--item" id="#section11">Updates
+        </div></li>
+
+      </ul>
+
+
+      <div id="DOC--content">
+
+        <!-- NAVIGATION BAR -->
+          <div class="DOC--nav-container">
+            <a href="#" class="title">Cathleen Jia</a>
+            <div class="DOC--nav-tab">
+              <a class="a--black" href="about.html">About</a>
+            </div>
+            <div class="DOC--nav-tab">
+              <!-- <a class="a--black" href="#">Design</a> -->
+            </div>
+          </div>
+
+        <!-- HAMBURGER TOGGLE -->
+        <div class="burger">
+
+          <a href="index.html">Cathleen Jia</a>
+
+          <input id="burger" type="checkbox" />
+
+          <label for="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </label>
+
+          <nav>
+            <ul>
+              <!-- <li><a href="#">Design</a></li> -->
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+
+        </div>
+
+
+          <div class="section" id="section1">
+            <h1>Halfy Hour Mobile App UI / UX</h4>
+            <h2>I redesigned UI + UX flows for Halfy Hour, a Berkeley based startup - working on a smartphone application that offers locally sourced food at discounted rates.</h2>
+            <img src="assets/index/halfy-hour--flatlay.jpg">
+            <ul>
+              <li>
+                <b>Local restaurants offer deals</b> at their own choosing, dependent on how many servings they have available or want to make available
+              </li>
+              <br>
+              <li>
+                <b>Users order food</b> through the app, and go to the restaurant to pick up food
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="section" id="section2">
+            <h3>Mission</h3>
+            <p>Halfy Hour partners with restaurants to advertise their brand to thousands of people nearby. Restaurants see increased traffic while providing great deals to customers.</p>
+          </div>
+
+
+          <div class="section" id="section3">
+            <h3>Team + Objective</h3>
+            <p>I worked directly under the founder and CEO to <b>redesign and simplify the UX flows and UI</b>. I also partnered with remote developers to oversee the project from conception to final release. I hosted weekly Skype calls to check in with progress on implementation.</p>
+          </div>
+
+
+          <div class="section" id="section4">
+            <h3>Research</h3>
+
+            <h4>Talking to College Students</h4>
+            <p>I conducted a user experience workshop with a group of 15 UC Berkeley students. I walked them through the old version of the app and received feedback on the UX flows, what they liked and didn’t like about the app.</p>
+            <div class="wrapped">
+
+              <h4>Key Points of Improvement</h4>
+
+              <div class="embedded-img">
+                <img src="assets/halfy-hour/old.png">
+                <div class="img-caption">old design</div>
+              </div>
+
+              <ul>
+                <li>
+                  <b>Unintuitive flows for adding an item to the cart.</b> When quantity of items is incremented from 0 to 1, the item is automatically sent to the cart; yet, the user is still prompted to “Add to Cart.” “Add to Cart” option still available even if 0 items have been selected.
+                </li>
+                <br>
+                <li>
+                  <b>Inconsistent styling.</b> Buttons vary in style — some are not clearly indicated to be buttons. Text alignment varies as well. Without a cohesive style and layout, the app <b>does not look professional</b>, and <b>users tend not to trust it</b>. Trust is vital when asking for credit credit card information.
+                </li>
+                <br>
+                <li>
+                  Restaurants should be listed with those open and favorited first. Action of scrolling through causes <b>loss of interest and engagement</b>.
+                </li>
+                <br>
+                <li>
+                  Text fields are unintuitive to the user. Pivot towards material design.
+                </li>
+                <br>
+                <li>
+                  Hot pink theme received consensus vote that it’s a rather distasteful choice. Does not agree with the goal of winning over the user’s trust. <b>Rebrand with color choices and logo</b>. Execs would like to continue with fuchsia tones.
+                </li>
+                <br>
+                <li>
+                  User should be prompted to login before using the app. <b>Do not interrupt experience</b> with prompt later. Execs would like to keep continue as guest option.
+                </li>
+              </ul>
+            </div>
+
+            <h4>Competitive Analysis</h4>
+            <p>I researched other companies with similar missions. My main take aways were:</p>
+            <ul>
+              <li>
+                These apps have slightly different flows since they are food delivery services, while Halfy Hour is just a discount service and users have to go to the restaurant to pick up their own food.
+              </li>
+              <br>
+              <li>
+                If you order food from more than one restaurant, you have to pay separately for them.
+              </li>
+            </ul>
+            <br>
+            <img src="assets/halfy-hour/competitive-analysis.png">
+            <br><br>
+          </div>
+
+          <div class="section" id="section5">
+            <h3>Initial Sketches</h3>
+            <p>I did two cycles of sketches. I began with sketches of a simplified flow.</p>
+            <img src="assets/halfy-hour/initial-sketch.png">
+            <div class="img-caption">Flow Sketch</div>
+            <br>
+            <img src="assets/halfy-hour/lowfi-1.png">
+            <br><br>
+            <img src="assets/halfy-hour/lowfi-2.png">
+            <div class="img-caption">Low Fidelity Sketch</div>
+          </div>
+
+
+          <div class="section" id="section6">
+            <h3>Final Solution</h3>
+            <p>Here I have a high fidelity mockup for flow of signing up and <b>ordering food</b> through pick up.</p>
+            <img src="assets/halfy-hour/final-flow.png">
+            <div class="img-caption">Flow</div>
+            <h4>Notes</h4>
+            <p>I thought it was important to display what items the user still needs to pick up. The difference between this app and other food apps is that users need to physically go to the restaurant to retreive their order. Thus, it's important to have an indicator that makes this difference explicit on the app itself.</p>
+          </div>
+
+
+          <div class="section" id="section7">
+            <h3>Video Demo</h3>
+            <br>
+            <video width="60%" controls>
+              <source src="assets/halfy-hour/demo.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <br><br>
+          </div>
+
+
+          <div class="section" id="section8">
+            <h3>Style Guide</h3>
+            <br>
+            <img src="assets/halfy-hour/style-guide.png">
+            <br><br>
+          </div>
+
+
+          <div class="section" id="section9">
+            <h3>Next Steps</h3>
+            <p>Moving forward, I would like to design a dashboard for different locations when Halfy Hour expands to San Fransisco. As of right now, it only encompasses restaurants based out of Berkeley simply due to the capacity of the startup. However, an easy to use toggle between cities is crucial for future growth.</p>
+          </div>
+
+
+          <div class="section" id="section10">
+            <h3>Reflection</h3>
+            <p>It was a pleasure working with Viktor and his team. This being my first major design project, I’m pleased with the lessons and skills I’ve learned through this.</p>
+          </div>
+
+
+          <div class="section" id="section11">
+            <h3>Updates</h3>
+            <p>Halfy Hour was acquired by Kiwi in Fall 2017. I assisted in the transfer of design assets, and Kiwi in currently in another round of fundraising.</p>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
