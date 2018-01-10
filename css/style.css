@@ -518,6 +518,16 @@ b {
   color: black;
 }
 
+#DOC--content > .section > p a {
+  font-family: 'Source Serif Pro', serif;
+  letter-spacing: 0.3px;
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 16;
+  color: blue;
+  text-decoration: underline;
+}
+
 #DOC--content > .section > a {
   font-family: 'Source Serif Pro', serif;
   letter-spacing: 0.3px;
