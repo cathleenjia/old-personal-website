@@ -1,0 +1,101 @@
+@font-face {
+    font-family: IBMPlexSans-SemiBold;
+    src: url("fonts/IBMPlexSans-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IBMPlexMono-Light;
+    src: url("fonts/IBMPlexMono-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IBMPlexMono-Text;
+    src: url("fonts/IBMPlexMono-Text.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IBMPlexMono-SemiBold;
+    src: url("fonts/IBMPlexMono-SemiBold.otf") format("opentype");
+}
+
+
+body {
+  /* background-color: #F8F8F8; */
+}
+
+#landing-page #header {
+  padding-top: 14%;
+}
+
+#nav-bar-container {
+  width: 87%;
+  position: absolute;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+#nav-bar-container #title {
+  font-family: 'IBMPlexMono-SemiBold', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: black;
+
+  float: left;
+  display: inline-block;
+}
+
+#nav-bar {
+  float: right;
+  display: inline-block;
+}
+
+#nav-bar #element {
+  font-family: 'IBMPlexMono-Text', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: black;
+
+  float: right;
+  display: inline-block;
+  padding-left: 100px;
+}
+
+#apply-button {
+  border-radius: 100px;
+  border-width: 0px;
+  background-color: black;
+
+  font-family: 'IBMPlexMono-Light', serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: white;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 41%;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: 'IBMPlexSans-SemiBold', serif;
+  font-size: 70px;
+  letter-spacing: 0.5px;
+  color: black;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'IBMPlexMono-Text', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: black;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
