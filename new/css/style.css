@@ -1,12 +1,12 @@
 @font-face {
     font-family: GT-super;
-    src: url("IBMPlexSans-SemiBold copy.otf") format("opentype");
+    src: url("GT-Super-Display-Trial-Super.otf") format("opentype");
 }
 
-/* @font-face {
+@font-face {
     font-family: GT-medium;
     src: url("GT-Super-Display-Trial-Medium.otf") format("opentype");
-} */
+}
 
 body {
   background-color: black;

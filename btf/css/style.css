@@ -21,22 +21,26 @@
 
 body {
   /* background-color: #F8F8F8; */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 #landing-page #header {
   padding-top: 14%;
+  align:center;
 }
 
 #nav-bar-container {
   width: 87%;
   position: absolute;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
 
 #nav-bar-container #title {
   font-family: 'IBMPlexMono-SemiBold', serif;
-  font-size: 16px;
+  font-size: 1.1vw;
   letter-spacing: 0.5px;
   color: black;
 
@@ -51,13 +55,13 @@ body {
 
 #nav-bar #element {
   font-family: 'IBMPlexMono-Text', serif;
-  font-size: 16px;
+  font-size: 1.05vw;
   letter-spacing: 0.5px;
   color: black;
 
   float: right;
   display: inline-block;
-  padding-left: 100px;
+  padding-left: 8vw;
 }
 
 #apply-button {
@@ -72,15 +76,16 @@ body {
 
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 41%;
+  margin-left:44%;
+  margin-right: 44%;
+  width: 12%;
   margin-top: 30px;
+  align:center;
 }
 
 h1 {
   font-family: 'IBMPlexSans-SemiBold', serif;
-  font-size: 70px;
+  font-size: 5vw;
   letter-spacing: 0.5px;
   color: black;
 
@@ -91,7 +96,7 @@ h1 {
 
 h2 {
   font-family: 'IBMPlexMono-Text', serif;
-  font-size: 16px;
+  font-size: 1.1vw;
   letter-spacing: 0.5px;
   color: black;
 
