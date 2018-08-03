@@ -1,52 +1,41 @@
 @media only screen and (max-width: 1150px) {
+
+  .nav-tab {
+    font-size: 13px;
+  }
+
+  .home-tab {
+    font-size: 13px;
+  }
+
   h1 {
-    font-size: 6vw;
+    font-size: 36px;
   }
 
-  h2 {
-    font-size: 1.4vw;
+  h3 {
+    font-size: 14px;
   }
 
-  #nav-bar-container #title {
-    font-size: 1.4vw;
+  button {
+    font-size: 13px;
   }
 
-  #nav-bar #element {
-    font-size: 1.4vw;
+  .landing-page-img {
+    margin-top: 2%;
   }
 
-  #apply-button {
-    font-size: 1.4vw;
-    margin-left:38%;
-    margin-right: 38%;
-    width: 24%
+  .landing-page-underscore {
+    font-size: 10px;
   }
-
   /* body {
     background-color: blue;
   } */
 }
 
 @media only screen and (max-width: 925px) {
-  h1 {
-    font-size: 7vw;
-  }
 
-  h2 {
-    font-size: 1.7vw;
-  }
-
-  #nav-bar-container #title {
-    font-size: 1.7vw;
-  }
-
-  #nav-bar #element {
-    font-size: 1.7vw;
-    padding-left: 5vw;
-  }
-
-  #apply-button {
-    font-size: 1.7vw;
+  .landing-page-img {
+    margin-top: 3%;
   }
 
   /* body {
@@ -56,28 +45,8 @@
 
 @media only screen and (max-width: 820px) {
 
-  h1 {
-    font-size: 7vw;
-  }
-
-  h2 {
-    font-size: 2vw;
-  }
-
-  #nav-bar-container #title {
-    font-size: 1.8vw;
-  }
-
-  /* make hamburger menu */
-  #nav-bar #element {
-    font-size: 1.8vw;
-  }
-
-  #apply-button {
-    font-size: 2vw;
-    margin-left:38%;
-    margin-right: 38%;
-    width: 24%
+  .landing-page-img {
+    margin-top: 8%;
   }
 
   /* body {
@@ -87,36 +56,63 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 700px) {
-  h1 {
-    font-size: 7.5vw;
+  .home-tab {
+    font-size: 12px;
   }
 
-  h2 {
-    font-size: 2.5vw;
+  .nav-tab {
+    font-size: 12px;
   }
 
-  #apply-button {
-    font-size: 2.5vw;
-    margin-left:33%;
-    margin-right: 33%;
-    width: 34%
+  button {
+    width: 100%;
   }
+
+  .landing-page-text {
+    width: 76%;
+  }
+
+  .landing-page-img {
+    margin-top: -50px;
+    width: 76%;
+  }
+
+  .landing-page-underscore {
+    margin-top: 36px;
+  }
+
+  /* body {
+    background-color: yellow;
+  } */
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 7.5vw;
+  .home-tab {
+    font-size: 12px;
   }
 
-  h2 {
-    font-size: 3vw;
+  .nav-tab {
+    font-size: 12px;
   }
 
-  #apply-button {
-    font-size: 3vw;
-    margin-left:30%;
-    margin-right: 30%;
-    width: 40%
+  button {
+    width: 100%;
+  }
+
+  .landing-page-text {
+    width: 76%;
+  }
+
+  .landing-page-img {
+    margin-top: -50px;
+    width: 76%;
+  }
+
+  .landing-page-underscore {
+    margin-top: 36px;
+  }
+  body {
+    background-color: yellow;
   }
 }

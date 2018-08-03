@@ -1,0 +1,14 @@
+@font-face {
+  font-family: AtlasGrotesqueLight;
+  src: url("AtlasGrotesk-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AtlasGrotesqueMedium;
+  src: url("AtlasGrotesk-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AtlasGrotesqueRegular;
+  src: url("AtlasGrotesk-Regular.otf") format("opentype");
+}
