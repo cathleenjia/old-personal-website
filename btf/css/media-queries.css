@@ -9,16 +9,16 @@
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 48px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 26px;
   }
 
   button {
     width: 100%;
-    font-size: 13px;
+    font-size: 28px;
 
   }
 
@@ -33,6 +33,7 @@
 
   .landing-page-underscore {
     margin-top: 36px;
+    font-size: 14px
   }
 
   /* body {
