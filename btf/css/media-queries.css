@@ -1,16 +1,60 @@
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 700px) {
-  .home-tab {
-    font-size: 12px;
+/*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
+@media only screen and (max-device-width : 1050px) {
+  .nav-tab {
+    font-size: 13px;
   }
 
-  .nav-tab {
-    font-size: 12px;
+  .home-tab {
+    font-size: 13px;
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 13px;
+
+  }
+
+  .landing-page-text {
+    width: 76%;
+  }
+
+  .landing-page-img {
+    margin-top: -50px;
+    width: 76%;
+  }
+
+  .landing-page-underscore {
+    margin-top: 36px;
+  }
+
+  /* body {
+    background-color: yellow;
+  } */
+}
+
+
+
+/*---------- V SMALL DESKTOP / SMALL SIZE: < 0.3333 width of screen ----------*/
+@media only screen and (max-width : 480px) {
+
+  .nav-tab {
+    font-size: 13px;
+  }
+
+  .home-tab {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 36px;
   }
 
   h3 {
@@ -28,56 +72,23 @@
 
   .landing-page-img {
     margin-top: -50px;
+    margin-right: -5px;
     width: 76%;
   }
 
   .landing-page-underscore {
     margin-top: 36px;
-  }
-  /* body {
-    background-color: yellow;
-  } */
-}
-
-
-@media only screen and (min-width: 700px) {
-
-  .nav-tab {
-    font-size: 13px;
-  }
-
-  .home-tab {
-    font-size: 13px;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  h3 {
-    font-size: 14px;
-  }
-
-  button {
-    font-size: 13px;
-  }
-
-  .landing-page-img {
-    margin-top: 5%;
-  }
-
-  .landing-page-underscore {
     font-size: 10px;
   }
-/*
-  body {
+
+  /* body {
     background-color: green;
   } */
 }
 
 
-@media only screen and (min-width: 925px) {
-
+/*---------- TABLET / MEDIUM SIZE: 0.33333 to 0.4 width of laptop screen ----------*/
+@media only screen and (max-width : 650px) and (min-width : 481px) {
   .nav-tab {
     font-size: 13px;
   }
@@ -99,21 +110,24 @@
   }
 
   .landing-page-img {
-    margin-top: 3%;
+    margin-top: 25%;
+  }
+
+  .landing-page-illustration {
+    width: 180%;
   }
 
   .landing-page-underscore {
     font-size: 10px;
   }
-/*
-  body {
+
+  /* body {
     background-color: red;
   } */
 }
 
-
-@media only screen and (min-width: 1150px) {
-
+/*---------- SMALL DESKTOP / BIG SIZE: 0.4 to 0.75 width of laptop screen ----------*/
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
   .nav-tab {
     font-size: 13px;
   }
@@ -135,7 +149,11 @@
   }
 
   .landing-page-img {
-    margin-top: 2%;
+    margin-top: 4%;
+  }
+
+  .landing-page-illustration {
+    width: 140%;
   }
 
   .landing-page-underscore {
