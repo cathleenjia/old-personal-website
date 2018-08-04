@@ -48,7 +48,8 @@ button{
 .landing-page-text > button {
   border-radius: 8px;
   border-style: none;
-  background-color: #4A90E2;
+  /* background-color: #4A90E2; */
+  background-color: red;
   padding-top: 1.8vh;
   padding-bottom: 1.4vh;
   padding-right: 5vh;
