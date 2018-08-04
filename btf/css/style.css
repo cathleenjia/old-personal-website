@@ -40,6 +40,11 @@ p {
   line-height: 28px;
 }
 
+button{
+  border-style: none;
+  background-color: none;
+}
+
 .landing-page-text > button {
   border-radius: 8px;
   border-style: none;
