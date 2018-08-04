@@ -7,7 +7,7 @@
 
   .nav-bar {
     padding-right: 7%;
-    width: 74%;
+    width: 86%;
     padding-top: 30px;
   }
 
@@ -26,10 +26,12 @@
 
   h1 {
     padding-top: 10px;
+    letter-spacing: -1px;
   }
 
   h3 {
     font-size: 14px;
+    letter-spacing: -0.1px;
   }
 
   .landing-page-text > button {
@@ -45,11 +47,12 @@
 
   .landing-page-img {
     margin-top: 10px;
-    margin-right: -70px;
+    /* margin-right: -70px; */
     float: right;
-    width: 100%;
+    width: 80%;
     height: 350px;
     background-image: url("../assets/landing-page-illustration-mobile.png");
+    background-size: 100%;
   }
 
   .landing-page-underscore {
