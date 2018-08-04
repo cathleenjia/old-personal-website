@@ -1,31 +1,274 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Untitled Spreadsheet</title>
+
+    <title>Build the Future Decal</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="main.js"></script>
+
   </head>
   <body>
+
     <div class="nav-bar">
       <div class="home-tab">BTF</div>
+      <div id="hamburger" onclick="menuControls()">
+        <button class="hamburger-icon">
+          <div class="hambuger-bar"></div>
+          <div class="hambuger-bar"></div>
+          <div class="hambuger-bar"></div>
+        </button>
+        <div class="hamburger-menu">
+          <div class="menu-element">About</div>
+          <div class="menu-element">Calendar</div>
+          <div class="menu-element">Staff</div>
+          <div class="menu-element">Policies</div>
+          <div class="menu-element">Class Notes</div>
+        </div>
+      </div>
       <div class="nav-tab">Class Notes</div>
       <div class="nav-tab">Policies</div>
       <div class="nav-tab">Staff</div>
       <div class="nav-tab">Calendar</div>
       <div class="nav-tab">About</div>
     </div>
-    <div class="landing-page-text">
-      <h1>Build the Future Decal</h1>
-      <h3>UC Berkeley’s Entrepreneurship Speaker Series</h3>
-      <button>Apply for Fall 18'</button>
-      <h3><b>Where:</b> 150 North Gate Hall</h3>
-      <h3><b>When:</b> Tues and Thurs, 6:30PM-8:00PM</h3>
-      <p class="landing-page-underscore">Sponsored by The House</p>
+
+    <div class="page" id="landing-page">
+      <div class="landing-page-text">
+        <h1>Build the Future Decal</h1>
+        <h3>UC Berkeley’s Entrepreneurship Speaker Series</h3>
+        <button>Apply for Fall 18'</button>
+        <h3><b>Where:</b> 150 North Gate Hall</h3>
+        <h3><b>When:</b> Tues and Thurs, 6:30PM-8:00PM</h3>
+        <p class="landing-page-underscore">Sponsored by The House</p>
+      </div>
+      <div class="landing-page-img">
+      </div>
     </div>
-    <div class="landing-page-img">
-      <img src="assets/landing-page-illustration.png" class="landing-page-illustration">
+
+    <div class="page">
+      <div id="about-page">
+        <h1>About</h1>
+        <p>
+          There’s no better place to explore building a startup than during your time as a student at UC Berkeley. Surrounded by ambitious and talented people and industry leading professors, there’s endless potential to create the next big thing. This course is designed to teach and inspire students to use their knowledge to build startups. We will be going over the basic building blocks of a successful startup and connect this knowledge to emerging fields. In addition, we will be providing an overview of the startup scene at Berkeley, pointing out resources ready to help students get a headstart.
+        </p>
+        <h2>With support from</h2>
+        <div class="img-strip">
+          <img src="assets/thehouse.png" id="thehouse-img"></img>
+          <img src="assets/bearfounders.png" id="bearfounders-img"></img>
+          <img src="assets/citrisfoundry.png" id="citrisfoundry-img"></img>
+          <img src="assets/freev.png" id="freev-img"></img>
+        </div>
+        <h2>Press</h2>
+        <div class="img-strip">
+          <img src="assets/berkeleyeng.png" id="berkeleyeng-img"></img>
+          <img src="assets/sfexaminer.png" id="sfexaminer-img"></img>
+          <img src="assets/dailycal.png" id="dailycal-img"></img>
+        </div>
+      </div>
     </div>
+
+    <div class="page">
+      <div id="calendar-page">
+        <h1>Calendar</h1>
+
+        <div class="calendar-card speaker">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">1A</div>
+          <div class="lecture-date selected">9/25</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">1B</div>
+          <div class="lecture-date">9/27</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card speaker">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">2A</div>
+          <div class="lecture-date">10/2</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">2B</div>
+          <div class="lecture-date">10/4</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card speaker">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">3A</div>
+          <div class="lecture-date">10/9</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">3B</div>
+          <div class="lecture-date">10/11</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">4A</div>
+          <div class="lecture-date">10/16</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">4B</div>
+          <div class="lecture-date">10/18</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">5A</div>
+          <div class="lecture-date">10/23</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">5B</div>
+          <div class="lecture-date">10/25</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">6A</div>
+          <div class="lecture-date">10/30</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">6B</div>
+          <div class="lecture-date">11/1</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">7A</div>
+          <div class="lecture-date">11/6</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">7B</div>
+          <div class="lecture-date">11/8</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">8A</div>
+          <div class="lecture-date">11/13</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">8B</div>
+          <div class="lecture-date">11/15</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">9A</div>
+          <div class="lecture-date">11/27</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Jane Smith</div>
+            <div class="lecture-subheader">Title, Company Name</div>
+          </div>
+          <img src="assets/ifttt.png" id="proton-img">
+        </div>
+
+        <div class="calendar-card">
+          <img src="assets/dropdown.png" class="dropdown-icon">
+          <div class="lecture-number">9B</div>
+          <div class="lecture-date">11/29</div>
+          <div class="lecture-text">
+            <div class="lecture-header">Lecture name</div>
+            <div class="lecture-subheader">Lecture description</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
   </body>
   </html>

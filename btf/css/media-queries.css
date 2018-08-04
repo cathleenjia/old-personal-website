@@ -1,24 +1,36 @@
 /*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
 @media only screen and (max-device-width : 1050px) {
+
+  .nav-bar {
+    padding-right: 7%;
+    width: 86%;
+    padding-top: 30px;
+  }
+
   .nav-tab {
     font-size: 13px;
   }
 
   .home-tab {
+    padding-top: 2px;
     font-size: 13px;
   }
 
+  #hamburger {
+    display: inline-block;
+  }
+
   h1 {
-    font-size: 48px;
+    padding-top: 10px;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 14px;
   }
 
-  button {
+  .landing-page-text > button {
     width: 100%;
-    font-size: 28px;
+    font-size: 13px;
 
   }
 
@@ -27,13 +39,85 @@
   }
 
   .landing-page-img {
-    margin-top: -50px;
+    margin-top: 10px;
+    width: 76%;
+    background-image: url("../assets/landing-page-illustration-mobile.png");
     width: 76%;
   }
 
   .landing-page-underscore {
     margin-top: 36px;
-    font-size: 14px
+  }
+
+  .nav-tab {
+    display: none;
+  }
+
+  .img-strip {
+    width: 100%;
+    padding:0;
+  }
+
+  #thehouse-img {
+    height: 14vw;
+    margin-right: 3.5vw;
+    margin-left: 2vw;
+  }
+  #bearfounders-img {
+    height: 8vw;
+    margin-right: 3.5vw;
+  }
+  #citrisfoundry-img {
+    height: 14.6vw;
+    margin-right: 3.5vw;
+    margin-top: 20px;
+  }
+  #freev-img {
+    height: 17.5vw;
+    margin-right: 3.5vw;
+    margin-top: 20px;
+  }
+  #berkeleyeng-img {
+    height: 16vw;
+    margin-right: 3.5vw;
+    margin-left: 12vw;
+  }
+  #sfexaminer-img {
+    height: 12vw;
+    margin-right: 3.5vw;
+    margin-left: 10vw;
+  }
+  #dailycal-img {
+    height: 8vw;
+    margin-right: 3.5vw;
+    margin-left: 8vw;
+  }
+
+  .lecture-number {
+    display: none;
+  }
+
+  .lecture-date {
+    font-size: 12px;
+    margin-left: -2px;
+    margin-top: -25px;
+  }
+
+  .lecture-date.selected {
+    background-color: #4A90E2;
+    color: white;
+  }
+
+  .lecture-header {
+    font-size: 12px;
+  }
+
+  .lecture-subheader {
+    font-size: 12px;
+  }
+
+  #proton-img {
+    display: none;
   }
 
   /* body {
@@ -62,7 +146,7 @@
     font-size: 14px;
   }
 
-  button {
+  .landing-page-text > button {
     font-size: 13px;
     width: 100%;
   }
@@ -72,9 +156,10 @@
   }
 
   .landing-page-img {
-    margin-top: -50px;
-    margin-right: -5px;
-    width: 76%;
+    background-image: url("../assets/landing-page-illustration-mobile.png");
+    background-size: 120%;
+    margin-right: 0px;
+    width: 90%;
   }
 
   .landing-page-underscore {
@@ -106,16 +191,15 @@
     font-size: 14px;
   }
 
-  button {
+  .landing-page-text > button {
     font-size: 13px;
   }
 
   .landing-page-img {
-    margin-top: 25%;
-  }
-
-  .landing-page-illustration {
-    width: 180%;
+    background-image: url("../assets/landing-page-illustration-mobile.png");
+    background-size: 120%;
+    margin-right: -40px;
+    margin-top: 35%;
   }
 
   .landing-page-underscore {
@@ -145,16 +229,12 @@
     font-size: 14px;
   }
 
-  button {
+  .landing-page-text > button {
     font-size: 13px;
   }
 
   .landing-page-img {
-    margin-top: 4%;
-  }
-
-  .landing-page-illustration {
-    width: 140%;
+    margin-top: 15%;
   }
 
   .landing-page-underscore {
