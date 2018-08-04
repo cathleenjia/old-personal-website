@@ -22,16 +22,22 @@
 
   h1 {
     padding-top: 10px;
+    letter-spacing: 0.3px;
   }
 
   h3 {
     font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+
+  h2 {
+    letter-spacing: 0.3px;
   }
 
   .landing-page-text > button {
     width: 100%;
     font-size: 13px;
-
+    letter-spacing: 0.3px;
   }
 
   .landing-page-text {
@@ -101,6 +107,7 @@
     font-size: 12px;
     margin-left: -2px;
     margin-top: -25px;
+    letter-spacing: 0.3px;
   }
 
   .lecture-date.selected {
@@ -109,11 +116,13 @@
   }
 
   .lecture-header {
-    font-size: 12px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
   }
 
   .lecture-subheader {
     font-size: 12px;
+    letter-spacing: 0.3px;
   }
 
   #proton-img {
