@@ -13,15 +13,15 @@ body {
 h1 {
   font-family: 'AtlasGrotesqueRegular', sans-serif;
   font-size: 36px;
-  letter-spacing: 1.5px;
   line-height: 50px;
   padding-top: 10px;
+  letter-spacing: 0.3px;
 }
 
 h2 {
   font-family: 'AtlasGrotesqueRegular', sans-serif;
   font-size: 20px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   line-height: 32px;
   padding-top: 24px;
 }
@@ -29,7 +29,7 @@ h2 {
 h3 {
   font-family: 'AtlasGrotesqueLight', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.3px;
   line-height: 24px;
 }
 
@@ -256,7 +256,7 @@ button > .hamburger-icon{
   color: black;
   font-family: 'AtlasGrotesqueLight', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.3px;
   line-height: 24px;
 }
 
@@ -283,7 +283,7 @@ button > .hamburger-icon{
   color: black;
   font-family: 'AtlasGrotesqueLight', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.3px;
   line-height: 24px;
 }
 
@@ -299,7 +299,7 @@ button > .hamburger-icon{
   color: black;
   font-family: 'AtlasGrotesqueMedium', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.3px;
   line-height: 24px;
 }
 
@@ -308,7 +308,7 @@ button > .hamburger-icon{
   color: black;
   font-family: 'AtlasGrotesqueLight', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.3px;
   line-height: 24px;
 }
 
