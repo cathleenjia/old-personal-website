@@ -94,8 +94,8 @@
 @media only screen and (max-device-width : 1150px) {
   .main {
     width: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .company-logo {
