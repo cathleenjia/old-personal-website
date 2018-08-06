@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding-top: 54px;
+  padding-left: 54px;
+  padding-right: 54px;
+  max-width: 100%;
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.page {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* ---------- NAV BAR ---------- */
+nav {
+  font-size: 15px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  background-color: white;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 54px;
+  padding-right: 54px;
+  max-width: 100%;
+  width: 72%;
+  position: relative;
+  overflow: hidden;
+
+  font-family: 'AtlasGrotesqueRegular', sans-serif;
+  font-size: 13.5px;
+  letter-spacing: 0.3px;
+}
+
+#hamburger {
+  display: none;
+}
+
+.home-tab {
+  align-items: center;
+  user-select: none;
+  width: 100%;
+  display: inherit;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 4px;
+}
+
+.nav-tab {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+.nav-tab:hover {
+  background-color: #D3E6F8;
+  transition-duration: 0.5s;
+}
+
+/* ---------- LANDING PAGE ---------- */
+#landing-page {
+  margin-top: 80px;
+  overflow-x: visible;
+}
+
+.landing-text {
+  display: inline-block;
+  float: left;
+  width: 47%;
+}
+
+#landing-img {
+  display: inline-block;
+  float: right;
+  width: 54%;
+  height: 70vh;
+  background-image: url("../assets/landing-page-illustration.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.landing-button {
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  width: 300px;
+
+  background-color: #4A90E2;
+  border-radius: 4px;
+  color: white;
+
+  font-family: 'AtlasGrotesqueRegular', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02px;
+}
+
+/* ---------- ABOUT PAGE ---------- */
+.img-strip {
+  max-width: 100%;
+  width: 73%;
+  margin: 0px auto;
+  align-items: center;
+  display: flex;
+}
+
+.img {
+  display: inline-block;
+}
+
+#thehouse-img {
+  width: 4.5vw;
+  padding-right: 42px;
+}
+
+#bearfounders-img {
+  height: 3vw;
+  padding-right: 42px;
+}
+
+#citrisfoundry-img {
+  height: 4.5vw;
+  padding-right: 36px;
+}
+
+#freev-img {
+  height: 5.5vw;
+}
+
+#berkeleyeng-img {
+  height: 3.5vw;
+  padding-right: 36px;
+}
+
+#sfexaminer-img {
+  height: 2.5vw;
+  padding-right: 36px;
+  padding-left: 56px;
+}
+
+#dailycal-img {
+  height: 2vw;
+  padding-right: 12px;
+}
+
+/* ---------- CALENDAR PAGE ---------- */
+.calendar-card {
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid #E8EAED;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 6px;
+}
+
+.dropdown-icon {
+  display: inline-block;
+  height: 7px;
+
+  padding: 10px;
+  margin-top:-10px;
+  /* margin-right: 1%; */
+}
+
+.lecture-date {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: -20px;
+  margin-left: 1%;
+  text-align: center;
+  vertical-align: middle;
+
+  color: black;
+  font-family: 'AtlasGrotesqueLight', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.lecture-date.selected {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.lecture-text {
+  display: inline-block;
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lecture-header {
+  display: block;
+  color: black;
+  font-family: 'AtlasGrotesqueMedium', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.lecture-subheader {
+  display: block;
+  color: black;
+  font-family: 'AtlasGrotesqueLight', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.company-logo {
+  display: inline-block;
+  height: 56px;
+
+  padding: 8px;
+  margin-right: 1%;
+  float: right;
+}

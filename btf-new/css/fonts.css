@@ -1,0 +1,62 @@
+@font-face {
+  font-family: AtlasGrotesqueLight;
+  src: url("AtlasGrotesk-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AtlasGrotesqueMedium;
+  src: url("AtlasGrotesk-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AtlasGrotesqueRegular;
+  src: url("AtlasGrotesk-Regular.ttf") format("truetype");
+}
+
+h1 {
+  font-family: 'AtlasGrotesqueMedium', sans-serif;
+  font-size: 42px;
+  padding-top: 10px;
+  letter-spacing: 0.3px;
+}
+
+h2 {
+  font-family: 'AtlasGrotesqueMedium', sans-serif;
+  font-size: 31px;
+  letter-spacing: 0.4px;
+}
+
+p {
+  font-family: 'AtlasGrotesqueRegular', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02px;
+  line-height: 26px;
+  color: #333333
+}
+
+.landing-fineprint {
+  margin-top: 30%;
+  font-family: 'AtlasGrotesqueLight', sans-serif;
+  font-size: 12px;
+  /* letter-spacing: 0.3px; */
+  color: #333333;
+}
+
+.subheader {
+  font-family: 'AtlasGrotesqueMedium', sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  margin-top: 36px;
+  margin-bottom: 4px;
+}
+
+
+b {
+  font-family: 'AtlasGrotesqueRegular', sans-serif;
+}
+
+button {
+  border-style: none;
+  background-color: none;
+  background: none;
+}
