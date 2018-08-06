@@ -111,6 +111,10 @@
   /* CSS specific to iOS devices */
 
   h1 {
-    letter-spacing: -1.5px;
+    letter-spacing: -1.6px;
+  }
+
+  h2 {
+    letter-spacing: -1.6px;
   }
 }
