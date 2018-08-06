@@ -66,6 +66,8 @@ nav {
   display: flex;
   align-items: center;
   padding: 18px;
+
+  font-family: 'AtlasGrotesqueMedium', sans-serif;
 }
 
 .nav-menu {
