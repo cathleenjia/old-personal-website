@@ -84,7 +84,7 @@
   .company-logo {
     display: none;
   }
-  
+
   /* body {
     background-color: blue;
   } */
@@ -99,4 +99,12 @@
   /* body {
     background-color: grey;
   } */
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  /* CSS specific to iOS devices */
+
+  h1 {
+    letter-spacing: -1.5px;
+  }
 }
