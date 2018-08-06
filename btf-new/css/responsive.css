@@ -92,6 +92,12 @@
 
 /*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
 @media only screen and (max-device-width : 1150px) {
+  .main {
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
   .company-logo {
     display: none;
   }
