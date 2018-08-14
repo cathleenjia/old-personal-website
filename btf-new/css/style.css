@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #eff4ff;
 }
 
 .main {
@@ -8,7 +9,7 @@ body {
   padding-left: 54px;
   padding-right: 54px;
   max-width: 100%;
-  width: 70%;
+  width: 78%;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,21 @@ body {
 .page {
   width: 100%;
   margin-top: 30px;
+}
+
+.subheader-div {
+  display: inline-block;
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  text-align: left;
+}
+
+.text-div {
+  display: inline-block;
+  width: 65%;
+  /* margin-right: 5%; */
+  float: right;
 }
 
 /* ---------- NAV BAR ---------- */
@@ -33,7 +49,7 @@ nav {
   align-items: center;
   justify-content: center;
   z-index: 99;
-  background-color: white;
+  background-color: #eff4ff;
 }
 
 .nav-bar {
@@ -44,13 +60,13 @@ nav {
   padding-left: 54px;
   padding-right: 54px;
   max-width: 100%;
-  width: 72%;
+  width: 80%;
   position: relative;
   overflow: hidden;
 
-  font-family: 'AtlasGrotesqueRegular', sans-serif;
-  font-size: 13.5px;
-  letter-spacing: 0.3px;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 15px;
+  letter-spacing: normal;
 }
 
 #hamburger {
@@ -95,26 +111,43 @@ nav {
 
 /* ---------- LANDING PAGE ---------- */
 #landing-page {
-  margin-top: 80px;
+  margin-top: 30px;
   overflow-x: visible;
 }
 
 .landing-text {
   display: inline-block;
   float: left;
-  width: 47%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.landing-page-header {
+  width: 45%;
+  margin-right: 5%;
+  display: inline-block;
+  float: left;
+}
+
+.landing-page-subheader {
+  width: 48%;
+  margin-left: 2%;
+  margin-top: 4px;
+  display: inline-block;
+  float: right;
 }
 
 #landing-img {
   display: inline-block;
-  float: right;
-  width: 54%;
-  height: 70vh;
-  background-image: url("../assets/landing-page-illustration.png");
+  width: 65%;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+  margin-top: 20px;
+  height: 500px;
+  background-image: url("../assets/btf-illy.png");
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  margin-top: -30px;
-  margin-left: -30px;
+  background-size: 100%;
 }
 
 .landing-button {
@@ -122,23 +155,34 @@ nav {
   padding-right: 28px;
   padding-top: 10px;
   padding-bottom: 8px;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-bottom: 20px;
-  width: 300px;
+  width: 100%;
 
-  background-color: #4A90E2;
+  background-color: #4e77f7;
   border-radius: 4px;
   color: white;
-
-  font-family: 'AtlasGrotesqueRegular', sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.02px;
 }
 
 /* ---------- ABOUT PAGE ---------- */
+#about-page {
+  margin-top: 100px;
+}
+
+#about-section {
+  width: 100%;
+  height:260px;
+}
+
+#press-section {
+  width: 100%;
+  height:40px;
+  margin-top: 80px;
+}
+
 .img-strip {
   max-width: 100%;
-  width: 73%;
+  width: 100%;
   margin: 0px auto;
   align-items: center;
   display: flex;
@@ -175,7 +219,6 @@ nav {
 #sfexaminer-img {
   height: 2.5vw;
   padding-right: 36px;
-  padding-left: 56px;
 }
 
 #dailycal-img {
@@ -183,82 +226,214 @@ nav {
   padding-right: 12px;
 }
 
-/* ---------- CALENDAR PAGE ---------- */
-.calendar-card {
-  width: auto;
-  border-radius: 4px;
-  border: 1px solid #E8EAED;
-  padding-left: 2%;
-  padding-right: 2%;
-  margin-bottom: 6px;
+/* ---------- SPEAKER PAGE ---------- */
+
+#speaker-page {
+  margin-top: 80px;
 }
 
-.dropdown-icon {
-  display: inline-block;
-  height: 7px;
-
-  padding: 10px;
-  margin-top:-10px;
-  /* margin-right: 1%; */
+.calendar {
+  padding-top: 40px;
 }
 
-.lecture-date {
+.card {
   display: inline-block;
-  width: 22px;
-  height: 22px;
-
+  width: 23%;
   border-radius: 8px;
-  padding-left: 8px;
-  padding-right: 18px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: -20px;
-  margin-left: 1%;
-  text-align: center;
-  vertical-align: middle;
-
-  color: black;
-  font-family: 'AtlasGrotesqueLight', sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  line-height: 24px;
+  margin-bottom: 12px;
+  margin-right: 1.5%;
+  background-color: white;
+  box-shadow: -1px 0px 10px -6px rgba(204,204,204,0.5);
 }
 
-.lecture-date.selected {
-  background-color: #4A90E2;
-  color: white;
-}
-
-.lecture-text {
-  display: inline-block;
-  margin-left: 5%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.lecture-header {
+.card-img {
   display: block;
-  color: black;
-  font-family: 'AtlasGrotesqueMedium', sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  line-height: 24px;
+  width: 100%;
+  height: 15vw;
+  border-radius: 8px 8px 0px 0px;
 }
 
-.lecture-subheader {
+.card-text {
   display: block;
-  color: black;
-  font-family: 'AtlasGrotesqueLight', sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  line-height: 24px;
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 8px;
 }
 
-.company-logo {
+.card-date {
   display: inline-block;
-  height: 56px;
-
   padding: 8px;
-  margin-right: 1%;
+  float: left;
+  width: 10%;
+}
+
+.card-info {
+  display: inline-block;
+  padding-bottom: 12px;
+  float: right;
+  width: 80%;
+}
+
+.card-month {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+
+}
+
+.card-day {
+  display: block;
+  font-family: 'ApercuProMedium', sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.4px;
+  line-height: normal;
+  text-align: center;
+}
+
+.card-header {
+  display: block;
+  font-family: 'ApercuProMedium', sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
+}
+
+.card-subheader {
+  display: block;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 0;
+  line-height: 18px;
+}
+
+#cat-img {
+  background-image: url("../assets/cat-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 135%;
+  background-position: center;
+}
+
+#elizabeth-iorns-img {
+  background-image: url("../assets/elizabeth-iorns.jpg");
+  background-repeat: no-repeat;
+  background-size: 135%;
+  background-position: center;
+}
+
+#ben-herman-img {
+  background-image: url("../assets/ben-herman.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#chad-rigetti-img {
+  background-image: url("../assets/chad-rigetti.jpg");
+  background-repeat: no-repeat;
+  background-size: 190%;
+  background-position: -30px -5px;
+}
+
+#evan-spiegel-img {
+  background-image: url("../assets/evan-spiegel.jpg");
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position: center;
+}
+
+/* ---------- ASSIGNMENTS PAGE ---------- */
+
+.assignments {
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.assignments-header-bar {
+  display: block;
+  border-bottom: 1px solid #E8EAED;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.assignments-header {
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+  color: #777777;
+}
+
+.assignment {
+  display: block;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.assignment:not(:last-child) {
+  border-bottom: 1px solid #E8EAED;
+}
+
+.assignment-name {
+  display: inline-block;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.4px;
+  width: 65%;
+  color: #333333;
+}
+
+
+.assignment-unit {
+  display: inline-block;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.4px;
+  text-align: center;
+
+  width: 13%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+
+  color: #233FE1;
+  background-color: #eff4ff;
+}
+
+.assignment-date {
+  display: inline-block;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.4px;
+  text-align: center;
+
+  width: 8%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+
+  color: #FF2045;
+  background-color: #FCEBEB;
   float: right;
 }

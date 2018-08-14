@@ -1,33 +1,46 @@
-@font-face {
-    font-family: GT-super;
-    src: url("GT-Super-Display-Trial-Super.otf") format("opentype");
-}
-
-@font-face {
-    font-family: GT-medium;
-    src: url("GT-Super-Display-Trial-Medium.otf") format("opentype");
-}
-
 body {
-  background-color: black;
+  background-color: #111111;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  margin-top: 5%;
-  font-family: 'GT-super', serif;
-  font-size: 170px;
-  text-align: center;
-  color: white;
+nav {
+  line-height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 
-h2 {
-  margin-top: -5%;
-  font-family: 'GT-medium', serif;
-  font-size: 53px;
-  font-weight: lighter;
-  letter-spacing: 1.3px;
+.nav-header {
+  display: inline-block;
+  float: left;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.nav-item {
+  display: inline-block;
+  float: right;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#landing-page {
+  display: block;
+  width: 42%;
+  margin-left: 29%;
+  margin-right: 29%;
+  margin-top: 160px;
   text-align: center;
-  color: white;
-  padding-left: 18%;
-  padding-right: 18%;
+}
+
+.header {
+  width: 100%;
+}
+
+.subheader {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }

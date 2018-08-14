@@ -1,37 +1,59 @@
 @font-face {
-  font-family: AtlasGrotesqueLight;
-  src: url("AtlasGrotesk-Light.ttf") format("truetype");
+  font-family: ApercuProRegular;
+  src: url("apercu_regular_pro.otf") format("opentype");
 }
 
 @font-face {
-  font-family: AtlasGrotesqueMedium;
-  src: url("AtlasGrotesk-Medium.ttf") format("truetype");
+  font-family: ApercuProBold;
+  src: url("apercu_bold_pro.otf") format("opentype");
 }
 
 @font-face {
-  font-family: AtlasGrotesqueRegular;
-  src: url("AtlasGrotesk-Regular.ttf") format("truetype");
+  font-family: ApercuProMedium;
+  src: url("apercu_medium_pro.otf") format("opentype");
 }
 
-h1 {
-  font-family: 'AtlasGrotesqueMedium', sans-serif;
-  font-size: 42px;
+.header {
+  font-family: 'ApercuProBold', sans-serif;
+  font-size: 56px;
   padding-top: 10px;
-  letter-spacing: 0.3px;
+  letter-spacing: -1px;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
-h2 {
-  font-family: 'AtlasGrotesqueMedium', sans-serif;
-  font-size: 31px;
-  letter-spacing: 0.4px;
+.subtitle {
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 20px;
+  letter-spacing: normal;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.subheader {
+  font-family: 'ApercuProMedium', sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.subsubheader {
+  font-family: 'ApercuProMedium', sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.7px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 p {
-  font-family: 'AtlasGrotesqueRegular', sans-serif;
+  font-family: 'ApercuProRegular', sans-serif;
   font-size: 16px;
-  letter-spacing: 0.02px;
+  letter-spacing: -0.4px;
   line-height: 26px;
-  color: #333333
+  color: #333333;
+  margin: 0;
 }
 
 .landing-fineprint {
@@ -42,13 +64,13 @@ p {
   color: #333333;
 }
 
-.subheader {
+/* .subheader {
   font-family: 'AtlasGrotesqueMedium', sans-serif;
   font-size: 20px;
   letter-spacing: -0.4px;
   margin-top: 36px;
   margin-bottom: 4px;
-}
+} */
 
 
 b {
@@ -59,4 +81,7 @@ button {
   border-style: none;
   background-color: none;
   background: none;
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
 }
