@@ -78,6 +78,13 @@ b {
   font-family: 'AtlasGrotesqueRegular', sans-serif;
 }
 
+a {
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 16px;
+  color: #233FE1;
+  text-decoration: none;
+}
+
 button {
   border-style: none;
   background-color: none;
