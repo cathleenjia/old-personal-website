@@ -4,13 +4,13 @@
 
     <title>Build the Future Decal</title>
 
+    <script type="text/javascript" src="main.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script type="text/javascript" src="main.js"></script>
 
   </head>
   <body>
@@ -25,7 +25,7 @@
             <div class="hambuger-bar"></div>
           </button>
           <div class="hamburger-menu">
-            <div class="menu-element">Speakers</div>
+            <div class="menu-element"><a href="#speaker-page">Speakers</a></div>
             <div class="menu-element">Assignments</div>
             <div class="menu-element">About</div>
             <div class="menu-element">Staff</div>
@@ -34,11 +34,11 @@
           </div>
         </div>
         <div class="nav-menu">
-          <div class="nav-tab">Speakers</div>
-          <div class="nav-tab">Assignments</div>
-          <div class="nav-tab">About</div>
-          <div class="nav-tab">Staff</div>
-          <div class="nav-tab">Policies</div>
+          <div class="nav-tab" onclick="scrollToSpeaker();">Speakers</div>
+          <div class="nav-tab" onclick="scrollToAssignments();">Assignments</div>
+          <div class="nav-tab" onclick="scrollToAbout();">About</div>
+          <div class="nav-tab" onclick="scrollToStaff();">Staff</div>
+          <div class="nav-tab" onclick="scrollToPolicies();">Policies</div>
           <div class="nav-tab">Notes</div>
         </div>
       </div>

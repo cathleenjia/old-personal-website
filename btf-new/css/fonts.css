@@ -85,6 +85,12 @@ a {
   text-decoration: none;
 }
 
+.nav-link {
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
 button {
   border-style: none;
   background-color: none;
