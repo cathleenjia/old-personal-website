@@ -175,6 +175,10 @@
 
 /*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
 @media only screen and (max-device-width : 1150px) {
+  .nav-bar {
+    width: 87.5%;
+  }
+
   .nav-menu {
     display: none;
   }
@@ -183,9 +187,38 @@
     display: block;
   }
 
-  .landing-page-subheader {
-    margin-left: 6%;
+  .page {
+    justify-content:center;
+    margin: auto;
+    min-width: 290px;
   }
+
+  #landing-page {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .landing-text {
+    width: 100%;
+  }
+
+  .landing-page-header {
+    width: 100%;
+  }
+
+  .landing-page-subheader {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .landing-button {
+    width: 90%;
+  }
+
+  #landing-img {
+    width: 100%;
+  }
+
 
   /* body {
     background-color: grey;
