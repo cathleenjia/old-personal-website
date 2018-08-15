@@ -156,6 +156,7 @@ button > .hamburger-icon{
 .nav-tab:hover {
   background-color: #D2DAFF;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 /* ---------- LANDING PAGE ---------- */
@@ -301,6 +302,7 @@ button > .hamburger-icon{
   margin-right: 1.5%;
   background-color: white;
   box-shadow: -1px 0px 10px -6px rgba(204,204,204,0.5);
+  cursor: pointer;
 }
 
 .card-img {
@@ -429,6 +431,8 @@ button > .hamburger-icon{
   background-color: white;
   border-radius: 4px;
   min-width: 835px;
+  overflow-x: scroll;
+  scroll-direction: horizontal;
 }
 
 .assignments-header-bar {

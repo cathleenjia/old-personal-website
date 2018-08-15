@@ -1,0 +1,270 @@
+/*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
+@media all and (max-width: 479px) {
+
+  html {
+    100%;
+  }
+
+  .nav-bar {
+    padding-right: 7%;
+    width: 86%;
+    padding-top: 30px;
+  }
+
+  .nav-tab {
+    font-size: 13px;
+  }
+
+  .home-tab {
+    padding-top: 2px;
+    font-size: 13px;
+  }
+
+  #hamburger {
+    display: inline-block;
+  }
+
+  h1 {
+    padding-top: 10px;
+    letter-spacing: -1px;
+  }
+
+  h3 {
+    font-size: 14px;
+    letter-spacing: -0.1px;
+  }
+
+  .landing-page-text > button {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .landing-page-text {
+    width: 76%;
+  }
+
+  .landing-page-img {
+    margin-top: 10px;
+    /* margin-right: -70px; */
+    float: right;
+    width: 80%;
+    height: 85vw;
+    background-image: url("../assets/landing-page-illustration-mobile.png");
+    background-size: 100%;
+  }
+
+  .landing-page-underscore {
+    margin-top: 18px;
+  }
+
+  .nav-tab {
+    display: none;
+  }
+
+  #about-page {
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 88%;
+  }
+
+  .img-strip {
+    width: 100%;
+    padding:0;
+  }
+
+  #thehouse-img {
+    height: 14vw;
+    margin-right: 3.5vw;
+    margin-left: 10vw;
+  }
+  #bearfounders-img {
+    height: 8vw;
+    margin-right: 3.5vw;
+  }
+  #citrisfoundry-img {
+    height: 14.6vw;
+    margin-left: 10vw;
+    margin-right: 3.5vw;
+    margin-top: 20px;
+  }
+  #freev-img {
+    height: 17.5vw;
+    margin-right: 3.5vw;
+    margin-top: 20px;
+  }
+  #berkeleyeng-img {
+    height: 16vw;
+    margin-right: 3.5vw;
+    margin-left: 12vw;
+  }
+  #sfexaminer-img {
+    height: 12vw;
+    margin-right: 3.5vw;
+    margin-left: 10vw;
+  }
+  #dailycal-img {
+    height: 8vw;
+    margin-right: 3.5vw;
+    margin-left: 8vw;
+  }
+
+  .lecture-number {
+    display: none;
+  }
+
+  .lecture-date {
+    font-size: 12px;
+    margin-left: -2px;
+    margin-top: -25px;
+  }
+
+  .lecture-date.selected {
+    background-color: #4A90E2;
+    color: white;
+  }
+
+  .lecture-header {
+    font-size: 13px;
+  }
+
+  .lecture-subheader {
+    font-size: 12px;
+  }
+
+  #proton-img {
+    display: none;
+  }
+
+  /* body {
+    background-color: yellow;
+  } */
+}
+
+
+
+/*---------- V SMALL DESKTOP / SMALL SIZE: < 0.3333 width of screen ----------*/
+@media all and (min-width: 480px) and (max-width: 767px){
+
+  .nav-tab {
+    font-size: 13px;
+  }
+
+  .home-tab {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .landing-page-text > button {
+    font-size: 13px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .landing-page-text {
+    width: 76%;
+  }
+
+  .landing-page-img {
+    background-image: url("../assets/landing-page-illustration-mobile.png");
+    background-size: 120%;
+    margin-right: 0px;
+    width: 50%;
+    height: 65vw;
+    margin-top: -60px;
+  }
+
+  .landing-page-underscore {
+    margin-top: 36px;
+    font-size: 10px;
+  }
+
+  /* body {
+    background-color: green;
+  } */
+}
+
+
+/*---------- TABLET / MEDIUM SIZE: 0.33333 to 0.4 width of laptop screen ----------*/
+@media all and (min-width: 768px) and (max-width: 959px) {
+  .nav-tab {
+    font-size: 13px;
+  }
+
+  .home-tab {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .landing-page-text > button {
+    font-size: 13px;
+  }
+
+  .landing-page-img {
+    background-image: url("../assets/landing-page-illustration-mobile.png");
+    background-size: 120%;
+    margin-right: -40px;
+    margin-top: 10vw;
+  }
+
+  .landing-page-underscore {
+    font-size: 10px;
+  }
+
+  /* body {
+    background-color: red;
+  } */
+}
+
+/*---------- SMALL DESKTOP / BIG SIZE: 0.4 to 0.75 width of laptop screen ----------*/
+@media all and (min-width:1200px){
+  .nav-tab {
+    font-size: 13px;
+  }
+
+  .home-tab {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 36px;
+    letter-spacing: 0.0px;
+  }
+
+  h3 {
+    font-size: 14px;
+    letter-spacing: 0.0px;
+  }
+
+  .landing-page-text > button {
+    font-size: 13px;
+  }
+
+  .landing-page-img {
+    margin-top: 100px;
+  }
+
+  .landing-page-underscore {
+    font-size: 10px;
+  }
+  /* body {
+    background-color: blue;
+  } */
+}

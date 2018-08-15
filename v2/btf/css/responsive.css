@@ -1,0 +1,27 @@
+/*---------- SMALL DESKTOP / BIG SIZE: 0.4 to 0.75 width of laptop screen ----------*/
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/*---------- TABLET / MEDIUM SIZE: 0.33333 to 0.4 width of laptop screen ----------*/
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  body {
+    background-color: green;
+  }
+}
+
+/*---------- V SMALL DESKTOP / SMALL SIZE: < 0.3333 width of screen ----------*/
+@media only screen and (max-width : 480px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
+@media only screen and (max-device-width : 1050px) {
+  body {
+    background-color: grey;
+  }
+}
