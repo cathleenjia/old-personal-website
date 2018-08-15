@@ -96,7 +96,7 @@ button > .hamburger-icon{
 
 .hamburger-menu {
   display: none;
-  position: absolute;
+  position:fixed;
   z-index: 5;
   left: 160px;
   top:45px;
@@ -107,6 +107,15 @@ button > .hamburger-icon{
 
   box-shadow: 0px 0px 5px rgba(65, 69, 73, 0.15);
   background-color: white;
+}
+
+.menu-element {
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  font-family: 'ApercuProRegular', sans-serif;
+  font-size: 15px;
+  letter-spacing: normal;
 }
 
 .home-tab {
@@ -161,6 +170,7 @@ button > .hamburger-icon{
   flex-direction: row;
   width: 670px;
   margin: auto;
+  justify-content: center;
 }
 
 .landing-page-header {

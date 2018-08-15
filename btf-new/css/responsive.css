@@ -77,6 +77,14 @@
     width: auto;
   }
 
+  .nav-menu {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
   .page {
     justify-content:center;
     margin: auto;
@@ -112,6 +120,7 @@
   .landing-page-subheader {
     text-align: center;
     display: block;
+    margin-left: 6%;
   }
 
   #landing-img {
@@ -172,6 +181,10 @@
 
   #hamburger {
     display: block;
+  }
+
+  .landing-page-subheader {
+    margin-left: 6%;
   }
 
   /* body {
