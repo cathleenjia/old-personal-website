@@ -166,6 +166,13 @@
 
 /*---------- MOBILE VIEW: smartphones, Android phones, landscape iPhone ----------*/
 @media only screen and (max-device-width : 1150px) {
+  .nav-menu {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+  }
 
   /* body {
     background-color: grey;
