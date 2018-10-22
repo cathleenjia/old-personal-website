@@ -4,22 +4,249 @@
 
     <title>Cathleen Jia</title>
 
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <!-- <meta charset="UTF-8"> -->
 
+
   </head>
   <body>
-    <nav>
+    <nav class="dark">
       <div class="nav-header nav-font">Cathleen Jia</div>
-      <div class="nav-item nav-font">Contact</div>
+      <div class="nav-item nav-font">Dark Mode</div>
       <div class="nav-item nav-font">About</div>
       <div class="nav-item nav-font">Work</div>
     </nav>
-    <div id="landing-page">
-      <p class="h1">Hiya, I'm Cathleen! 🙌 <br>I design and develop digital experiences to empower people.</p>
-      <!-- <p class="h2">I'm currently a student at UC Berkeley, studying cognitive science and computer science. I love learning about people, systems, and the frictional broundaries between theory and reality.</p> -->
+    <div class="main dark">
+      <div id="landing-page">
+        <p class="h1 landing-title">Hiya! I'm Cathleen ✨ <br>I design and develop to empower people and enable ideas.</p>
+        <!-- <p class="h2">I'm currently a student at UC Berkeley, studying cognitive science and computer science. I love learning about people, systems, and the frictional broundaries between theory and reality.</p> -->
+      </div>
+      <div id="speaker-page">
+        <p class="subheader">Speakers</p>
+
+        <div class="calendar">
+
+          <div class="card">
+            <div class="card-img" id="cameron-baradar-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Sept</p>
+                <p class="card-day">18</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Cameron Baradar</p>
+                <p class="card-subheader">The House</p>
+                <p class="card-subheader">Founder</p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-img" id="ryan-peterson-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Sep</p>
+                <p class="card-day">25</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Ryan Peterson</p>
+                <p class="card-subheader">Flexport</p>
+                <p class="card-subheader">Founder and CEO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="elizabeth-iorns-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Oct</p>
+                <p class="card-day">2</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Elizabeth Iorns</p>
+                <p class="card-subheader">CEO @Science Exchange</p>
+                <p class="card-subheader">Part-time partner @ YC</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="matthew-prince-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Oct</p>
+                <p class="card-day">9</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Matthew Prince</p>
+                <p class="card-subheader">CloudFlare</p>
+                <p class="card-subheader">CEO and Cofounder</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="nagraj-kashyap-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Oct</p>
+                <p class="card-day">16</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Nagraj Kashyap</p>
+                <p class="card-subheader">Microsoft Ventures</p>
+                <p class="card-subheader">Corporate Vice President</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="girl-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Oct</p>
+                <p class="card-day">23</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Andrew Kortina</p>
+                <p class="card-subheader">Venmo</p>
+                <p class="card-subheader">Co-founder</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="patrick-lee-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Oct</p>
+                <p class="card-day">30</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Patrick Lee</p>
+                <p class="card-subheader">Cofounder @Hobo Labs</p>
+                <p class="card-subheader">CEO @Rotten Tomatoes</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="pejman-nozad-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Nov</p>
+                <p class="card-day">1</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Pejman Nozad</p>
+                <p class="card-subheader">Pear VC</p>
+                <p class="card-subheader">Founding Managing Partner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="ben-herman-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Nov</p>
+                <p class="card-day">6</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Ben Herman</p>
+                <p class="card-subheader">Jumpstart</p>
+                <p class="card-subheader">Founder and CEO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="evan-spiegel-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Nov</p>
+                <p class="card-day">15</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Evan Spiegel</p>
+                <p class="card-subheader">Snap Inc.</p>
+                <p class="card-subheader">Cofounder and CEO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="chad-rigetti-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Nov</p>
+                <p class="card-day">27</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">Chad Rigetti</p>
+                <p class="card-subheader">Rigetti Quantum Computing</p>
+                <p class="card-subheader">Founder and CEO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img" id="girl-img">
+            </div>
+            <div class="card-text">
+              <div class="card-date">
+                <p class="card-month">Nov</p>
+                <p class="card-day">29</p>
+              </div>
+              <div class="card-info">
+                <p class="card-header">TBA</p>
+                <p class="card-subheader">Build the Future</p>
+                <p class="card-subheader">Speaker</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      <!-- <div id="portfolio-page">
+        <div class="project-card"><a href="btf.html" class="no-style">
+          <img src="assets/build-the-future--flatlay.png" class="project-thumbnail">
+          <div class="post-title">
+            <div class="chip">Design</div>
+            <div class="chip">Code</div>
+            <p class="h2 card-title">Build the Future</p>
+            <p class="h3 card-subtitle">Created unique brand identity and developed mobile-first course website.</p>
+            <p class="h3 card-subtitle">Read more...</p>
+          </div></a>
+        </div>
+        <div class="project-card"><a href="halfy-hour.html" class="no-style">
+        <img src="assets/halfy-hour--flatlay.png" class="project-thumbnail">
+        <div class="post-title">
+          <div class="chip">Design</div>
+          <p class="h2 black-text card-title">Halfy Hour</p>
+          <p class="h3 black-text card-subtitle">Synthesized a cohesive brand identity and redesigned the mobile app experience.</p>
+          <p class="h3 black-text card-subtitle">Read more...</p>
+        </div></a>
+      </div>
+      </div> -->
     </div>
 
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
   </html>

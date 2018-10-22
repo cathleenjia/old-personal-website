@@ -1,41 +1,137 @@
 @font-face {
-  font-family: MaaxRegular;
-  src: url("Sans-Regular.ttf") format("truetype");
+  font-family: SF-Compact;
+  src: url("SFCompactText-Regular.otf") format("opentype");
+  font-weight: 200;
 }
 
 @font-face {
-  font-family: MaaxMedium;
-  src: url("Sans-Medium.ttf") format("truetype");
+  font-family: SF-Compact;
+  src: url("SFCompactText-Medium.otf") format("opentype");
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: MaaxBold;
-  src: url("Sans-Bold.ttf") format("truetype");
+  font-family: SF-Compact;
+  src: url("SFCompactText-Semibold.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SF-Compact;
+  src: url("SFCompactText-Bold.otf") format("opentype");
+  font-weight: 500;
 }
 
 b {
-  font-family: MaaxMedium, sans-serif;
+  font-family: SF-Compact, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: SF-Compact, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: -0.3px;
 }
 
 .h1 {
-  font-family: MaaxRegular, sans-serif;
-  font-size: 60px;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 48px;
+  margin: 0px;
+}
+
+.dark > div > div > .h1 {
   color: white;
-  letter-spacing: normal;
-  line-height: 68px;
 }
 
 .h2 {
-  font-family: MaaxRegular, sans-serif;
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: -0.9px;
+  line-height: 28.8px;
+  color: RGBA(55, 53, 47, 0.6);
+}
+
+.h3 {
+  margin-top: 24px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: -0.75px;
+  line-height: 36.5px;
+}
+
+
+.h4 {
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.h5 {
+  font-weight: 200;
   font-size: 14px;
-  color: white;
-  letter-spacing: normal;
+  letter-spacing: -0.1px;
   line-height: 20px;
+  margin-top: 4px;
+  margin-bottom: 12px;
 }
 
 .nav-font {
-  font-family: MaaxRegular, sans-serif;
+  font-weight: 300;
   font-size: 16px;
+  letter-spacing: -0.3px;
+}
+
+.dark > a > div  > .nav-font {
+  color: #FDFCFC;
+}
+
+.light > a > div > .nav-font {
+  color: #474B4C;
+}
+
+.dark > a {
+  color: #FDFCFC;
+}
+
+.light > a {
+  color: #474B4C;
+}
+
+.dark > #hamburger > .hamburger-menu > a {
+  color: #FDFCFC;
+  text-decoration: none;
+}
+
+.light > #hamburger > .hamburger-menu > a {
+  color: #474B4C;
+  text-decoration: none;
+}
+
+.white-text {
   color: white;
-  letter-spacing: normal;
+}
+
+.black-text {
+  color: #474B4C;
+}
+
+.gray-text {
+  color:  #4A4A4A;
+}
+
+.no-style {
+  text-decoration: none;
 }

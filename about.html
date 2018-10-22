@@ -1,83 +1,79 @@
 <!DOCTYPE html>
-
-<html >
-
+<html>
   <head>
 
-    <title>Cathleen Jia</title>
+    <title>Cathleen Jia - About</title>
 
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Source+Serif+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Mono:400,500" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 
-    <!-- NAVIGATION BAR -->
-    <div class="nav--container">
-      <div class="nav--title">
-        <a href="index.html">Cathleen Jia</a>
-      </div>
-      <div class="nav--bar">
-        <div class="nav--tab">
-          <a href="about.html">About</a>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
+    <!-- <meta charset="UTF-8"> -->
+
+
+  </head>
+  <body class="dark">
+    <nav class="dark">
+      <div id="hamburger" onclick="menuControls()">
+          <button class;="hamburger-icon">
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+          </button>
+          <div class="hamburger-menu">
+            <a href="index.html"><div class="menu-element" id="work">Work</div></a>
+            <a href="about.html"><div class="menu-element" id="about">About</div></a>
+          </div>
         </div>
-        <div class="nav--tab">
-          <!-- <a href="#portfolio"> Design</a> -->
+        <a href="index.html"><div class="nav-header nav-font">Cathleen Jia</div></a>
+        <a href="about.html"><div class="nav-item nav-font">About</div></a>
+        <a href="index.html"><div class="nav-item nav-font">Work</div></a>
+    </nav>
+    <div class="main dark">
+      <div id="about-page">
+        <div>
+          <div class="about-img" id="me-img"></div>
+          <div id="about-post-text">
+            <p class="h1">Hiya I'm Cathleen!</p>
+            <p class="h3">I’m a strategic designer and developer who believes that every design decision should be deliberate and data driven.</p>
+            <p class="project-text">I am a third year student at UC Berkeley, majoring in cognitive science with computer science minor. With background in CS, I am adept at designing within systems and at vastly different scales, executing bigger picture concepts as well as creating the fine details.</p>
+            <p class="project-text">To me craftsmanship in tech means deep empathy for people's needs, attention to the stories data have to tell, and mastery of the tools.</p>
+            <!-- <p class="h3">I have a deep passion for empowering people and enabling ideas.</p>
+            <p class="project-text">Currently supporting ideation and creation as an <b>Executive Director at Cal Hacks</b>, UC Berkeley's annual hackathon, hosting over 2,000 attendees.</p>
+            <p class="project-text">This November, Cal Hacks 5.0 will be my third Cal Hacks. Year after year I witness so much waste at the event, but this year one of our initiatives I'm personally most excited about is taking the first steps towards becoming one of the first large scale events to go eco-friendly and sustainable. We are starting by eliminating plastic water bottles for hackers and replacing them with water refill stations distributed across the venue and by handing out functional and quality swag that we've deliberately chosen and designed.</p>
+            <p class="project-text">I am also transforming health and wellness for kids and older adults as <b>Fung Fellow for Technology and Wellness</b>. We design and build technological solutions to challenges in public health.</p>
+            <p class="project-text">I also have the extraordinary honor of being the <b>Sequoia Capital Ambassador</b> for UC Berkeley. Aside from learning first hand from some of the sharpest individuals in the industry, I help inform Sequoia of campus technology trends and indentify high potential startups and entrepreurs.</p> -->
+          </div>
         </div>
+        <div>
+          <div id="about-pre-text">
+            <p class="h3">I have a deep passion for empowering people and enabling ideas.</p>
+            <p class="project-text">Currently supporting ideation and creation as an <b>Executive Director at Cal Hacks</b>, UC Berkeley's annual hackathon, hosting over 2,000 attendees.</p>
+            <p class="project-text">This November, Cal Hacks 5.0 will be my third Cal Hacks. Year after year I witness so much waste at the event, but this year one of our initiatives I'm personally most excited about is taking the first steps towards becoming one of the first large scale events to go eco-friendly and sustainable. We are starting by eliminating plastic water bottles for hackers and replacing them with water refill stations distributed across the venue and by handing out functional and quality swag that we've deliberately chosen and designed.</p>
+            <p class="project-text">I am also transforming health and wellness for kids and older adults as <b>Fung Fellow for Technology and Wellness</b>. We design and build technological solutions to challenges in public health.</p>
+            <p class="project-text">I also have the extraordinary honor of being the <b>Sequoia Capital Ambassador</b> for UC Berkeley. Aside from learning first hand from some of the sharpest individuals in the industry, I help inform Sequoia of campus technology trends and indentify high potential startups and entrepreurs.</p>
+          </div>
+          <div class="about-img" id="us-img"></div>
+        </div>
+
       </div>
-    </div>
 
-    <!-- HAMBURGER TOGGLE -->
-    <div class="burger">
 
-      <a href="index.html">Cathleen Jia</a>
-
-      <input id="burger" type="checkbox" />
-
-      <label for="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div class="dark-mode">
+        <p class="dark-mode-label">Use dark mode</p>
+        <label class="switch switch_type1" role="switch">
+        <input type="checkbox" class="switch__toggle" checked>
+        <span class="switch__label"></span>
       </label>
-
-      <nav>
-        <ul>
-          <!-- <li><a href="#portfolio">Design</a></li> -->
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-
-    </div>
-
-
-    <div class="ABOUT--img">
-      <div class="border">
-        <img src="assets/me.png">
       </div>
     </div>
 
-    <div class="ABOUT--content">
-      <h1>Hiya! I'm Cathleen —</h1>
-      <p>I’m a strategic designer and developer who believes that every design decision should be deliberate and data driven. </p>
-      <p>With background in CS, I am adept at designing within systems and at vastly different scales, executing bigger picture concepts as well as creating the fine details.</p>
-      <h2>What I'm currently working on:</h2>
-      <ul>
-        <li>I’m an executive director for <a href="http://calhacks.io" target="_blank">Cal Hacks</a>. We're throwing the largest hacking party in the nation.</li><br>
-        <li>I’m a facilitator for <a href="http://thefuture.build" target="_blank">CS198: Build the Future</a>, a speaker series course at UC Berkeley.</li>
-      </ul>
-      <h2>Check out my links below &darr;</h2>
-      <ul>
-        <li><a href="cathleen-jia-resume.pdf" target="_blank">Resume</a></li><br>
-        <li><a href="mailto:cathleenjia@berkeley.edu" target="_blank">cathleenjia@berkeley.edu</a></li>
-      </ul>
-    </div>
 
-
-    <script src="js/main.js"></script>
-
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
-
-</html>
+  </html>

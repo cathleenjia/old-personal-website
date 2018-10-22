@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Cathleen Jia - Build the Future</title>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    <!-- <meta charset="UTF-8"> -->
+
+
+  </head>
+  <body class="dark">
+    <nav class="dark">
+      <div id="hamburger" onclick="menuControls()">
+          <button class;="hamburger-icon">
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+          </button>
+          <div class="hamburger-menu">
+            <a href="index.html"><div class="menu-element" id="work">Work</div></a>
+            <a href="about.html"><div class="menu-element" id="about">About</div></a>
+          </div>
+        </div>
+      <a href="index.html"><div class="nav-header nav-font">Cathleen Jia</div></a>
+      <a href="about.html"><div class="nav-item nav-font">About</div></a>
+      <a href="index.html"><div class="nav-item nav-font">Work</div></a>
+    </nav>
+    <div class="side-nav" onmouseover="showSideNav()" onmouseout="hideSideNav()">
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line1"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name1">Problem</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line2" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name2">Understand</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line3"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name3">Needs</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line4"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name4">Key insights</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line5"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name5">Moodboard</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line6"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name6">Midfi wireframes</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line7"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name7">Illustrations</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line8"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name8">Color palette</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line9"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name9">Logo design</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line10"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name10">Final product</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line11"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name11">Reflections</p>
+      </div>
+    </div>
+    <div id="project-page">
+      <div class="project-title section" id="1">
+        <p class="h1">Build the Future</p>
+        <p class="project-text">Role: Lead designer, Brand, Web developer<br>
+          Tools: Sketch, Illustrator, Javascript
+        </p>
+        <div class="chip">Problem</div>
+        <p class="h3">How might we refresh Build the Future's identity, while staying true to its entrepreneurial values? </p>
+      </div>
+        <div class="project-content">
+          <div class="project-spec">
+            <img src="assets/btf/banner.png" class="project-img">
+
+            <div class="section" id="2">
+              <div class="chip">Understand</div>
+              <p class="h3">Build the Future is a two unit course at UC Berkeley designed to teach and inspire students to use their knowledge to build startups, featuring industry leaders who come and speak about their personal journeys.</p>
+              <p class="project-text"> We go over the basic building blocks of a successful startup and connect this knowledge to emerging fields. Over the course of the semester, we divide our class of 50 students into groups and go through the actual process of ideating and creating a startup idea that is intriguing to investors, culminating in a pitch to venture capitalists. In addition, we provide an overview of the startup scene at Berkeley, pointing out resources ready to help students get a head start.</p>
+              <p class="project-text"> The course website contains information about upcoming guest speakers, course policies, and course staff. Below are screen captures from the previous design.</p>
+              <img src="assets/btf/previous-design.png" class="project-img">
+            </div>
+
+            <div class="section" id="3">
+              <div class="chip">Needs</div>
+              <p class="h3">Build the Future needed a new identity that would help define the voice of the organization as well as streamline the curriculum.</p>
+              <p class="project-text">There were some key things this new brand needed to accomplish for the course.</p>
+              <p class="project-text"><b>1. Unique voice</b>: While the course was founded under a campus startup incubator, the course had started to grow independent from this campus entity. Hence, the course needed to establish a new identity unique from its old brand.</p>
+              <p class="project-text"><b>2. Modular visual language</b>: The course needed a modular visual design system, a cohesive visual language which also offered flexibility with the various design needs of the curriculum, including showcasing guest speakers from partnering companies.</p>
+              <p class="project-text"><b>3. Establish common language</b>: For a student run course, who's course staff turnover rate was pretty much every semester, a better way to communicate design specification was necessary to establish a cohesive voice.</p>
+            </div>
+
+            <div class="section" id="4">
+              <div class="chip">Key insights</div>
+              <p class="h3">Having been course staff for 2 semesters, I built a strong understanding for the goals and values in which the course was built upon. </p>
+              <p class="project-text"><b>1. Learn</b>: Focus on learning and not the title that comes with it. Title will come naturally. Craftmanship in business stems from a mastery of tools.</p>
+              <p class="project-text"><b>2. Diversity</b>: Work with people with personality and different experiences. Work with people who are independent thinkers, have struggled, and failed.</p>
+              <p class="project-text"><B>3. People</b>: Success derives from a deep empathy for people. Work on something meaningful. Work on projects that are challenging, impactful, and make a difference. We're rethinking the social contract that businesses are founded upon, proposing an ‘ethical economy’ that integrates moral
+                concerns with economic measurement.</p>
+            </div>
+
+            <div class="section" id="5">
+              <div class="chip">Moodboard</div>
+              <p class="h3">Recognizing the values in which Build the Future stood for, human centricity and innovation, I put together a moodboard to convey what I envisioned the redesign would look like.</p>
+              <img src="assets/btf/moodboard.png" class="project-img">
+            </div>
+
+            <div class="section" id="6">
+              <div class="chip">Midfi wireframes</div>
+              <p class="h3">The design of these interfaces were informed by the knowledge that our students primarily access the course website via mobile.</p>
+              <p class="project-text">Hence, I used a mobile first design lens when I created these interfaces. The interface as a whole needed to act responsively regardless of screen size. I drew inspiration from Notion.so, defining all page content as a static size whereas the margins would resize as necessary.</p>
+              <p class="project-text">The landing page was designed such that shrinking the webpage would make the header, subheader, and button stack. The interface for weekly guest speakers was designed to resize well on various screens and to convey crucial information in an efficient manner. I chose to use a calendar interface metaphor, with each card representing a different week and speaker. I also chose to include a photo of the speaker rather than a company logo to echo the humanistic values of our decal. The class was created so our students could learn about entrepreurship from personal narratives rather than company pitches.</p>
+              <img src="assets/btf/midfi.png" class="project-img">
+            </div>
+
+            <div class="section" id="7">
+              <div class="chip">Illustrations</div>
+              <p class="h3">The basis of the illustration was defined by the interface.</p>
+              <p class="project-text">Because this illustration is meant to be center justified regardless of screen size, it was necessary for the illustration to be relatively symmetrical. I chose to incorporate people to echo the course's humanistic values, and the building blocks highlight the curriculum, which is meant to introduce of "building blocks" of entrepreurship to our students. My choice of boldly colored shapes was also informed by a concern for loss of detail on smaller screens.</p>
+              <img src="assets/btf/illustration.png" class="project-img">
+            </div>
+
+            <div class="section" id="8">
+              <div class="chip">Color Palette</div>
+              <p class="h3">My bold color choices are consistent with my motivation to mitigate loss of detail on smaller screens.</p>
+              <p class="project-text">The choice of violet toned blues are a gentle nod at our parent organization that we were founded under, whose color palette is a bright sky blue.</p>
+              <img src="assets/btf/color-palette.png" class="project-img">
+            </div>
+
+            <div class="section" id="9">
+              <div class="chip">Logo design</div>
+              <p class="h3">The final logo echos the same components of the illustration to maintain a consistent voice throughout the brand.</p>
+              <img src="assets/btf/logo.png" class="project-img">
+            </div>
+
+            <div class="section" id="10">
+              <div class="chip">Final product</div>
+              <p class="h3">This is the final website. You can also visit it here: www.thefuture.build</p>
+              <img src="assets/btf/final.png" class="project-img">
+            </div>
+
+            <div class="section" id="11">
+              <div class="chip">Reflections</div>
+              <p class="h3">Completing this project highlighted the advantages of having a technical background when designing products.</p>
+              <p class="project-text">My understanding of flex displays, responsive design, and interface metaphors helped me created an optimal user interface that could be viewed from any size screen. I was also able to take a uniquely strategic approach to branding. This project has only further reinforced my belief that all designers should code and all coders should design! Neither skill is mutually exclusive of the other. Products should be driven by a recognition for aesthetic implications and informed by technical logic.</p>
+              <p class="h3">I've also learned a lot about concrete success metrics.</p>
+              <p class="project-text">As a part of the course staff, I have seen our course website pulled up on our students screens a lot. Seeing my product in use and actually serving its functional purpose of being the central repository of course information is a deeply satisfying feeling.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="dark-mode">
+          <p class="dark-mode-label">Use dark mode</p>
+          <label class="switch switch_type1" role="switch">
+          <input type="checkbox" class="switch__toggle" checked>
+          <span class="switch__label"></span>
+          </label>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+  </html>

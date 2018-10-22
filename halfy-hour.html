@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Cathleen Jia - Halfy Hour</title>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    <!-- <meta charset="UTF-8"> -->
+
+
+  </head>
+  <body class="dark">
+    <nav class="dark">
+      <div id="hamburger" onclick="menuControls()">
+          <button class;="hamburger-icon">
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+          </button>
+          <div class="hamburger-menu">
+              <a href="index.html"><div class="menu-element" id="work">Work</div></a>
+              <a href="about.html"><div class="menu-element" id="about">About</div></a>
+          </div>
+        </div>
+        <a href="index.html"><div class="nav-header nav-font">Cathleen Jia</div></a>
+        <a href="about.html"><div class="nav-item nav-font">About</div></a>
+        <a href="index.html"><div class="nav-item nav-font">Work</div></a>
+    </nav>
+    <div class="side-nav" onmouseover="showSideNav()" onmouseout="hideSideNav()">
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line1"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name1">Problem</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line2" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name2">Understand</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line3"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name3">Research</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line4"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name4">Key points of improvement</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line5"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name5">Competitive analysis</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line6"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name6">Lowfi wireframes</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line7"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name7">Hifi mockups</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line8"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name8">Style guide</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line9"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name9">Next steps</p>
+      </div>
+      <div class="tab">
+        <svg height="25" width="30" class="slidein">
+          <line x1="0" y1="0" x2="30" y2="0" style="stroke:rgb(239, 239, 239);stroke-width:4" id="line10"/>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <p class="name hidden" id="name10">Reflections</p>
+      </div>
+    </div>
+    <div id="project-page">
+      <div class="project-title section" id="1">
+        <p class="h1">Halfy Hour</p>
+        <p class="project-text">Role: Lead designer, Brand<br>
+          Team: Viktor Sinzig, Natalia Flechsig<br>
+          Tools: Adobe XD CC, Illustrator
+        </p>
+        <div class="chip">Problem</div>
+        <p class="h3">How might we redesign Halfy Hour's mobile experience to help establish the business across campus? </p>
+      </div>
+        <div class="project-content">
+          <div class="project-spec">
+            <img src="assets/halfy-hour/banner.png" class="project-img">
+
+            <div class="section" id="2">
+              <div class="chip">Understand</div>
+              <p class="h3">Halfy Hour is a Berkeley based startup that built a mobile app which offers deals at local restaurants.</p>
+              <p class="project-text"> Halfy Hour's business model is built off of partnering with restaurants to advertise their brand to thousands of people nearby. Restaurants see increased traffic while providing great deals to customers. Users place orders through the app and go to the restaurant in person for pick up.</p>            </div>
+
+            <div class="section" id="3">
+              <div class="chip">Research</div>
+              <p class="h3">I conducted usability tests with 15 college students.</p>
+              <p class="project-text">I created a research plan and conducted research studies with 15 UC Berkeley students. I asked them to perform certain tasks and followed up with questions such as "is this what you expected would happen with this interaction". The following points below list my main takeaways from these studies. </p>
+            </div>
+
+            <div class="section" id="4">
+              <div class="chip">Key points of improvement</div>
+              <p class="h3">1. Unintuitive flows for adding an item to the cart</p>
+              <p class="project-text">When quantity of items is incremented from 0 to 1, the item is automatically sent to the cart; yet, the user is still prompted to “Add to Cart.” “Add to Cart” option still available even if 0 items have been selected</p>
+              <p class="h3">2. Inconsistent styling</p>
+              <p class="project-text">Buttons vary in style — some are not clearly indicated to be buttons. Text alignment varies as well. Without a cohesive style and layout, the app <b>does not look professional</b>, and <b>users tend not to trust it</b>. Trust is vital when asking for credit credit card information.</p>
+              <p class="h3">3. Rebrand with color palette and visual design language</p>
+              <p class="project-text">Hot pink theme received consensus vote that it’s a rather distasteful choice. Does not agree with the goal of winning over the user’s trust. Rebrand with color choices and logo. Execs would like to continue with red tones.</p>
+              <img src="assets/halfy-hour/previous-design.png" class="project-img">
+            </div>
+
+            <div class="section" id="5">
+              <div class="chip">Competitive analysis</div>
+              <p class="h3">I researched other companies with similar services. My main take aways were:</p>
+              <p class="project-text">1. These apps have slightly <b>different flows</b> since they are food delivery services, while Halfy Hour is just a discount service and users have to go to the restaurant to <b>pick up their own food</b>.</p>
+              <p class="project-text">2. If you order food from more than one restaurant, you have to <b>pay separately</b> for them.</p>
+              <img src="assets/halfy-hour/competitive-analysis.png" class="project-img">
+            </div>
+
+            <div class="section" id="6">
+              <div class="chip">Lowfi wireframes</div>
+              <p class="h3">I completed 2 iterations of sketches. I began with a simplified flow and expanded after syncing with the founders of Halfy Hour.</p>
+              <img src="assets/halfy-hour/flow.png" class="project-img">
+              <img src="assets/halfy-hour/lowfi.png" class="project-img">
+            </div>
+
+            <div class="section" id="7">
+              <div class="chip">Hifi mockups</div>
+              <p class="h3">Browse restaurants and menus.</p>
+              <img src="assets/halfy-hour/browse.png" class="project-img">
+              <p class="project-text">On the restaurants page, Halfy Hour allows users to filter searches with a tabbed interaction, which can be toggled with swiping motions. The searchbar enables more specific and targeted browsing. Cards were my UI element of choice to <b>optimize screen real estate</b> for best visual communication of name, cuisine, preparation time, and an image for each restaurant.</p>
+              <p class="project-text">Similarly, on the menu page, <b>cards were a tool for conveying independent sets of information</b>. They are effective in highlighting restaurant information as well as organizing information about dishes, both <b>grouping them together through visual similarity</b> and <b>maintaining clarity with margins and spacing</b>.</p>
+              <p class="project-text">Additionally, the dish page utilizes <b>center justification to balance</b> the image heavy interface with a brief description. The centered axis draws the user's eyes from the image to the action button, calling the user to add a dish to their cart.
+              <p class="h3">Place orders and check order status.</p>
+              <img src="assets/halfy-hour/order.png" class="project-img">
+              <p class="project-text">I chose to use an interaction that resembles a recipe card for the cart interface. It can be enabled with a tap of the cart icon or a swiping up motion. It is important to display what items the user still needs to pick up. The difference between this app and other food apps is that users need to physically go to the restaurant to retreive their order. Thus, it's important to have an indicator that makes this difference explicit on the app itself.</p>
+              <p class="h3">User flow</p>
+              <img src="assets/halfy-hour/hifi-flow.png" class="project-img">
+            </div>
+
+            <div class="section" id="8">
+              <div class="chip">Style guide</div>
+              <p class="h3">I created a consistent design language to establish a professional voice and build trust with our users.</p>
+              <img src="assets/halfy-hour/style-guide.png" class="project-img">
+            </div>
+
+            <div class="section" id="9">
+              <div class="chip">Next steps</div>
+              <p class="h3">Halfy Hour was acquired by Kiwi in Fall 2017. I assisted in the transfer of design assets, and Kiwi in currently in another round of fundraising.</p>
+              <p class="project-text">Before Halfy Hour's acquiry, I would have liked to design a dashboard for different locations when Halfy Hour expands to San Fransisco. As of then, it only encompassed restaurants based out of Berkeley simply due to the capacity of the startup. However, an easy to use toggle between cities is crucial for future growth.</p>
+            </div>
+
+            <div class="section" id="10">
+              <div class="chip">Reflections</div>
+              <p class="h3">It was a pleasure working with Viktor and his team. And it was an incredible honor to get to contribute to their product as my first large design project. </p>
+              <p class="project-text">Working at such a young company, quick design sprints and lots of iterative design were crucial to our growth and success. As sole designer on the team, I guided several remote work sessions with contracted remote developers until the designs we had envisioned were met. This experience helped me learn to verbalize the importance of user experience design.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="dark-mode">
+          <p class="dark-mode-label">Use dark mode</p>
+          <label class="switch switch_type1" role="switch">
+          <input type="checkbox" class="switch__toggle" checked>
+          <span class="switch__label"></span>
+        </label>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+  </html>

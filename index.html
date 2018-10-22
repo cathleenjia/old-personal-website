@@ -4,22 +4,115 @@
 
     <title>Cathleen Jia</title>
 
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
     <!-- <meta charset="UTF-8"> -->
 
-  </head>
-  <body>
-    <nav>
-      <div class="nav-header nav-font">Cathleen Jia</div>
-      <div class="nav-item nav-font">Contact</div>
-      <div class="nav-item nav-font">About</div>
-      <div class="nav-item nav-font">Work</div>
-    </nav>
-    <div id="landing-page">
-      <p class="h1">Hiya, I'm Cathleen! 🙌 <br>I design and develop digital experiences to empower people.</p>
-      <!-- <p class="h2">I'm currently a student at UC Berkeley, studying cognitive science and computer science. I love learning about people, systems, and the frictional broundaries between theory and reality.</p> -->
-    </div>
 
+  </head>
+  <body class="dark">
+    <nav class="dark">
+      <div id="hamburger" onclick="menuControls()">
+          <button class;="hamburger-icon">
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+          </button>
+          <div class="hamburger-menu">
+            <a href="index.html"><div class="menu-element" id="work">Work</div></a>
+            <a href="about.html"><div class="menu-element" id="about">About</div></a>
+          </div>
+        </div>
+        <a href="index.html"><div class="nav-header nav-font">Cathleen Jia</div></a>
+        <a href="about.html"><div class="nav-item nav-font">About</div></a>
+        <a href="index.html"><div class="nav-item nav-font">Work</div></a>
+    </nav>
+    <div class="main dark">
+      <div id="landing-page">
+        <div>
+          <p class="h1 landing-title">Hiya I'm Cathleen!</p>
+          <p class="h1 landing-title">I design and develop to empower people and enable ideas.</p>
+        </div>
+        <!-- <p class="h2">I'm currently a student at UC Berkeley, studying cognitive science and computer science. I love learning about people, systems, and the frictional broundaries between theory and reality.</p> -->
+      </div>
+      <div id="portfolio-page">
+        <div class="calendar">
+
+          <div class="card"><a href="btf.html">
+            <div class="card-img" id="btf-img">
+              <div class="tint"></div>
+            </div>
+            <div class="card-text">
+                <p class="h4 card-title">Build the Future</p>
+                <div class=" card-chip">Design</div>
+                <div class="card-chip">Code</div>
+                <p class="h5 card-subtitle">Created unique brand identity and developed mobile-first course website.</p>
+                <!-- <div class=" card-chip">Design</div>
+                <div class="card-chip">Code</div> -->
+            </div></a>
+          </div>
+
+          <div class="card"><a href="google.html">
+            <div class="card-img" id="google-img">
+              <div class="tint"></div>
+            </div>
+            <div class="card-text">
+                <p class="h4 card-title">Google UXE</p>
+                <div class=" card-chip">Design</div>
+                <div class="card-chip">Code</div>
+                <p class="h5 card-subtitle">Applied accessibility first lens as a User Experience Engineering Intern</p>
+                <!-- <div class=" card-chip">Design</div>
+                <div class="card-chip">Code</div> -->
+            </div></a>
+          </div>
+
+          <div class="card"><a href="halfy-hour.html">
+            <div class="card-img" id="halfy-hour-img">
+              <div class="tint"></div>
+            </div>
+            <div class="card-text">
+                <p class="h4 card-title">Halfy Hour</p>
+                <div class=" card-chip">Design</div>
+                <p class="h5 card-subtitle">Synthesized a cohesive brand identity and redesigned the mobile experience.</p>
+                <!-- <div class=" card-chip">Design</div>
+                <div class="card-chip">Code</div> -->
+            </div></a>
+          </div>
+
+          <div class="card"><a href="willow.html">
+            <div class="card-img" id="willow-img">
+              <div class="tint"></div>
+            </div>
+            <div class="card-text">
+                <p class="h4 card-title">Willow in Mind</p>
+                <div class=" card-chip">Design</div>
+                <p class="h5 card-subtitle">Designed a game to promote healthy relationships and combat abuse.</p>
+                <!-- <div class=" card-chip">Design</div>
+                <div class="card-chip">Code</div> -->
+            </div></a>
+          </div>
+
+
+        </div>
+
+        <div class="dark-mode">
+          <p class="dark-mode-label">Use dark mode</p>
+          <label class="switch switch_type1" role="switch">
+          <input type="checkbox" class="switch__toggle" checked>
+          <span class="switch__label"></span>
+        </label>
+        </div>
+      </div>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
   </html>
