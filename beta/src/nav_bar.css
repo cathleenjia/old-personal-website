@@ -1,0 +1,77 @@
+.hamburger-menu {
+  position: fixed;
+  right: 60px;
+  top: 0;
+  margin-top: 70px;
+}
+
+.menu-01 {
+  width: 54px;
+  height: 7px;
+  background-color: #2B1D0D;
+}
+
+.menu-02 {
+  border-bottom: 7px solid #2B1D0D;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 35px;
+  margin: 10px 0px 0px 12px;
+
+  transform: rotate(180deg);
+}
+
+.nav-email {
+  font-family: 'spaceGrotesk', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.5px;
+  color: #2B1D0D;
+
+  position: fixed;
+  right: -42px;
+  bottom: 0;
+  margin-bottom: 150px;
+
+  transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 750px) {
+  .hamburger-menu {
+    margin-top: 48px;
+    right: 32px;
+  }
+
+  .nav-email {
+    right: -72px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .hamburger-menu {
+    margin-top: 24px;
+    right: 16px;
+  }
+
+  .nav-email {
+    right: -82px;
+    margin-bottom: 120px;
+  }
+
+  .menu-01 {
+    width: 28px;
+    height: 4px;
+    background-color: #2B1D0D;
+  }
+
+  .menu-02 {
+    border-bottom: 4px solid #2B1D0D;
+  	border-right: 0px solid transparent;
+  	height: 4px;
+  	width: 28px;
+    margin: 6px 0px 0px 0px;
+
+    transform: rotate(180deg);
+  }
+}
