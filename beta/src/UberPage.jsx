@@ -48,7 +48,7 @@ function UberPage() {
                 header="03 - My work"
                 subheader="Deep dive into building a robust design framework">
                 <p><b>Research + audit</b></p>
-                <p>I began my work by auditing other loyalty apps and creating a deck summarizing the mechanisms in which other programs enable points earning and points spending as well as the types of rewards that are offered. </p>
+                <p>I began my work by auditing other loyalty apps and creating a deck summarizing the mechanisms in which other programs enable points earning and points spending as well as the types of rewards that are offered. I then made a set of recommendations based on these findings. </p>
                 <p><b>Defining product goals</b></p>
                 <p>I worked with product to narrow down the scope of this addition to to the exiting loyalty program. Some key challenges we faced were differentiating the functionality of this new addition from the existing functionalities - what the unique value add would be.</p>
                 <p><b>Rapid iteration</b></p>

@@ -7,9 +7,12 @@ import ProjectPreview from "./ProjectPreview"
 import NavBar from "./NavBar"
 import Canvas from "./Canvas"
 
+
 const OPACITY_STEPS = 20;
 let timer = undefined;
-// const BACKGROUND_COLORS =
+let curr = 0;
+let next = 1;
+const BACKGROUND_COLORS = [['#F0E4DB', '#FFFFFF'], ['#769EE5', '#AFE6FB'], ['#D9C950', '#FEFB69'], ['#DF9D9B', '#F8DEDE'], ['#E9B484', '#FEFABF']];
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -19,7 +22,8 @@ class Home extends React.Component {
       x: -200,
       y: -200,
       numDots: 0,
-      backgroundColor: 0
+      currBackgroundColor: BACKGROUND_COLORS[curr],
+      nextBackgroundColor: BACKGROUND_COLORS[next],
     }
   }
 
@@ -35,13 +39,27 @@ class Home extends React.Component {
     // console.log("move " + opacityStep);
   }
 
+  changeBackgroundColor = () => {
+    if (curr == BACKGROUND_COLORS.length-1) {
+      curr = 0;
+    } else {
+      curr++;
+    }
+    if (next == BACKGROUND_COLORS.length-1) {
+      next = 0;
+    } else {
+      next++;
+    }
+    this.setState({currBackgroundColor: BACKGROUND_COLORS[curr], nextBackgroundColor: BACKGROUND_COLORS[next], numDots: 0});
+  }
+
   drawDot = (x, y, opacityStep) => {
     // this.setState(prevState => {
     //   let dotCoords = prevState.dotCoords.slice(0, prevState.dotCoords.length);
     //   dotCoords.push([<div className="dot" style={{left: x, top: y}}/>]);
     //   return { dotCoords }
     // })
-    if (this.ct !== undefined) {
+    if (this.ct !== undefined && this.state.numDots < 3750) {
       let opacity = (opacityStep/OPACITY_STEPS);
 
       if(opacityStep>OPACITY_STEPS-1){
@@ -53,12 +71,13 @@ class Home extends React.Component {
       this.ct.arc(x, y, 150, 0, 2 * Math.PI, false);
 
       this.ct.globalAlpha=opacity
-      this.ct.fillStyle = '#769EE5';
+      console.log(this.state.nextBackgroundColor);
+      this.ct.fillStyle = this.state.nextBackgroundColor[0];
       this.ct.fill();
       this.ct.lineWidth = 5;
 
       this.ct.globalAlpha=1-opacity;
-      this.ct.fillStyle = '#AFE6FB';
+      this.ct.fillStyle = this.state.nextBackgroundColor[1];
       this.ct.fill();
       this.ct.lineWidth = 5;
 
@@ -72,15 +91,15 @@ class Home extends React.Component {
       console.log(this.state.numDots);
 
       if (opacityStep >= OPACITY_STEPS) {
-        if (this.state.numDots > 1500) {
-          this.changeBackground();
-        }
         clearTimeout(timer);
         return;
       }
 
       // requestAnimationFrame(this.drawDot);
       timer = requestAnimationFrame(() => this.drawDot(x,y, opacityStep + 1), 1000);
+    } else {
+      this.changeBackgroundColor();
+      this.ct.clearRect(0, 0, window.innerWidth, window.innerHeight);
     }
   }
 
@@ -94,6 +113,7 @@ class Home extends React.Component {
 
     return (
       <>
+      <div className="background" style={{backgroundColor: this.state.currBackgroundColor[0]}}></div>
       <Canvas setContext={this.setContext}/>
       <div className="app" onMouseMove={this.handleMouseMove}>
 
@@ -104,7 +124,7 @@ class Home extends React.Component {
             <div className="header-title">
               <h1 className="header1">Hello, I'm Cathleen!</h1>
               <h1 className="header1">I'm a designer who believes in creating beautifully engineered products to empower people.</h1>
-              <h1 className="header1 link" href="">More about me &rarr;</h1>
+              <Link to ='/about'><h1 className="header1 link" href="">More about me &rarr;</h1></Link>
             </div>
           </header>
 
@@ -118,7 +138,7 @@ class Home extends React.Component {
 
 
         <NavBar email="cathleenjia@berkeley.edu"/>
-        <div className={`background-circle ${this.state.numDots > 15000 ? 'grow-circle' : 'shrink-circle'}`} style={{backgroundColor: this.state.currBackgroundColor}} /> 
+        <div className={`background-circle ${this.state.numDots > 3000 ? 'grow-circle' : ''}`} style={{backgroundColor: this.state.nextBackgroundColor[0]}}/>
       </div>
       </>
     );

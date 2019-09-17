@@ -1,0 +1,14 @@
+.me-img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-title {
+    width: 100%;
+  }
+
+  .project-description {
+    width: 100%;
+  }
+}

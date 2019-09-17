@@ -7,11 +7,13 @@
   width: 43%;
   margin-right: 7%;
   margin-top: -20px;
+  vertical-align: top;
 }
 
 .project-description {
   display: inline-block;
   width: 50%;
+  vertical-align: top;
 }
 
 .project-details {
@@ -110,4 +112,24 @@
 @keyframes slide-out{
     from { left: -32px; opacity: 0;}
     to { left: 0px; opacity: 1;}
+}
+
+@media only screen and (max-width: 1000px) {
+  .section-headers {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .section-content {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .section-subheader {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
 }

@@ -10,6 +10,8 @@ import UberPage from "./UberPage"
 import HomepointrPage from "./HomepointrPage"
 import GooglePage from "./GooglePage"
 import BuildtheFuturePage from "./BuildtheFuturePage"
+import AboutPage from "./AboutPage"
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         <Route path="/homepointr" component={HomepointrPage} />
         <Route path="/googlepage" component={GooglePage} />
         <Route path="/buildthefuture" component={BuildtheFuturePage} />
+        <Route path="/about" component={AboutPage} />
       </div>
     </Router>
 
