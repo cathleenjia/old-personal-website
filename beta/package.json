@@ -11,6 +11,7 @@
     "react-scripts": "3.1.1",
     "react-scroll": "^1.7.14"
   },
+  "homepage": "https://cathleenjia.github.io/beta",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -33,6 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://cathleenjia.github.io/beta",
+  }
 }
